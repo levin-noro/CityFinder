@@ -8,11 +8,11 @@ import com.example.model.BeerExpert; // notice this
 
 public class BeerSelect extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-		String c = request.getParameter("color");
-		BeerExpert be = new BeerExpert();
-		List result = be.getBrands(c);
-		request.setAttribute("styles", result);
-		RequestDispatcher view = request.getRequestDispatcher("result.jsp");
-		view.forward(request, response);
+		String c = request.getParameter("color"); // gets the colour fromt he request
+		BeerExpert be = new BeerExpert();// does same thing as main
+		List result = be.getBrands(c);// same as main
+		request.setAttribute("styles", result); // get brand and store it an attribute of request called styles
+		RequestDispatcher view = request.getRequestDispatcher("result.jsp"); // creates the view
+		view.forward(request, response); // sends the date to view to be displayed
 	}
 }

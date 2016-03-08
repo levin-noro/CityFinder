@@ -18,6 +18,6 @@ public class BeerExpert {
 	public static void main(String []args){
 		String color = "amber";
 		List brand = new BeerExpert().getBrands(color);
-		System.out.println(brand.get(0));
+		System.out.println(brand.get(1));
 		}
 }
