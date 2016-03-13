@@ -4,7 +4,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
@@ -31,13 +30,13 @@ public class QuickSort {
 	
 	// sort method has 2 parameters - first is the sort type (look at main method above for legend), second is the file name
 	// currently configured to only work for "Canada well being.csv"
-	private static String sort(int sortType, String filename) throws FileNotFoundException, UnsupportedEncodingException {
+	public static ArrayList<String[]> sort(int sortType, String filename) throws FileNotFoundException, UnsupportedEncodingException {
 		ArrayList<String[]> data = loadData(filename);
 		quick(data, 0, data.size()-1, sortType);
 		assert isSorted(data, 0, data.size() - 1, sortType);
 		//toString(data);
-		String filePath = writeData(data, filename);
-		return filePath;
+		writeData(data, filename);
+		return data;
 		
 	}
 

@@ -26,8 +26,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4605058,Albert,83,53,96,86,79,36%,Manitoba,Non-Aboriginal,325
 3559011,Alberton,94,68,94,90,86,34%,Ontario,Non-Aboriginal,645
 3514027,Alderville First Nation,72,53,90,79,74,14%,Ontario,First Nation,470
-5943837,Alert Bay,64,36,85,68,63,21%,British Columbia,First Nation,530
 5943008,Alert Bay,83,51,90,92,79,48%,British Columbia,Non-Aboriginal,440
+5943837,Alert Bay,64,36,85,68,63,21%,British Columbia,First Nation,530
 4811805,Alexander 134,64,41,69,76,63,20%,Alberta,First Nation,1030
 4813811,Alexis 133,47,35,44,48,43,6%,Alberta,First Nation,805
 3502023,Alfred and Plantagenet,86,54,94,86,80,25%,Ontario,Non-Aboriginal,8945
@@ -42,8 +42,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1309036,Alnwick,77,38,90,69,68,36%,New Brunswick,Non-Aboriginal,5880
 3514024,Alnwick/Haldimand,91,64,95,90,85,42%,Ontario,Non-Aboriginal,6535
 4603040,Altona,83,49,93,88,79,41%,Manitoba,Non-Aboriginal,3925
-2478070,Amherst,77,43,96,76,73,46%,Quebec,Non-Aboriginal,1425
 1211011,Amherst,83,53,92,83,78,26%,Nova Scotia,Non-Aboriginal,9400
+2478070,Amherst,77,43,96,76,73,46%,Quebec,Non-Aboriginal,1425
 3537028,Amherstburg,91,62,97,86,84,29%,Ontario,Non-Aboriginal,21335
 4807008,Amisk,,,,,81,45%,Alberta,Non-Aboriginal,110
 2488055,Amos,87,56,95,86,81,27%,Quebec,Non-Aboriginal,12135
@@ -107,13 +107,16 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2445035,Ayer's Cliff,89,57,95,87,82,42%,Quebec,Non-Aboriginal,1055
 3534011,Aylmer,81,45,94,84,76,29%,Ontario,Non-Aboriginal,7070
 4706052,B-Say-Tah,,,,,92,3%,Saskatchewan,Non-Aboriginal,120
+2485020,B_arn,78,57,96,80,78,42%,Quebec,Non-Aboriginal,775
+2438010,B_cancour,89,60,95,86,83,21%,Quebec,Non-Aboriginal,12010
+2494250,B_gin,81,47,89,82,75,47%,Quebec,Non-Aboriginal,860
 5951828,Babine  6,,,,,52,3%,British Columbia,First Nation,85
 5949819,Babine 17,,,,,58,1%,British Columbia,First Nation,175
 5951829,Babine 25,,,,,48,5%,British Columbia,First Nation,80
 1006026,Badger,78,49,89,79,74,45%,Newfoundland and Labrador,Non-Aboriginal,560
 1008079,Baie Verte,80,50,97,83,77,47%,Newfoundland and Labrador,Non-Aboriginal,1370
 2496020,Baie-Comeau,91,56,97,87,83,15%,Quebec,Non-Aboriginal,21425
-2466112,Baie-D'Urf�,100,85,98,87,93,24%,Quebec,Non-Aboriginal,3830
+2466112,Baie-D'Urf_,100,85,98,87,93,24%,Quebec,Non-Aboriginal,3830
 2499060,Baie-James,88,51,93,83,79,38%,Quebec,Non-Aboriginal,1255
 2498035,Baie-Johan-Beetz,,,,,94,47%,Quebec,Non-Aboriginal,85
 2416013,Baie-Saint-Paul,87,56,96,85,81,30%,Quebec,Non-Aboriginal,7005
@@ -126,8 +129,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4706047,Balcarres,90,50,92,73,76,42%,Saskatchewan,Non-Aboriginal,570
 3552028,Baldwin,83,42,87,83,74,47%,Ontario,Non-Aboriginal,540
 4706032,Balgonie,96,62,98,93,87,45%,Saskatchewan,Non-Aboriginal,1625
-1314005,Balmoral,,,,,74,48%,New Brunswick,Non-Aboriginal,625
 1314006,Balmoral,,,,,82,39%,New Brunswick,Non-Aboriginal,1735
+1314005,Balmoral,,,,,74,48%,New Brunswick,Non-Aboriginal,625
 3512061,Bancroft,84,52,93,82,78,40%,Ontario,Non-Aboriginal,3745
 4815035,Banff,92,75,94,94,89,41%,Alberta,Non-Aboriginal,6245
 2444045,Barnston-Ouest,85,57,92,91,82,49%,Quebec,Non-Aboriginal,515
@@ -152,9 +155,9 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2427028,Beauceville,81,51,97,89,79,28%,Quebec,Non-Aboriginal,6140
 2470022,Beauharnois,83,53,96,85,79,33%,Quebec,Non-Aboriginal,11875
 2431008,Beaulac-Garthby,81,53,96,76,76,40%,Quebec,Non-Aboriginal,875
-2419105,Beaumont,90,65,97,91,86,28%,Quebec,Non-Aboriginal,2335
 4811013,Beaumont,96,64,98,90,87,25%,Alberta,Non-Aboriginal,13285
-2421025,Beaupr�,89,63,94,86,83,35%,Quebec,Non-Aboriginal,3130
+2419105,Beaumont,90,65,97,91,86,28%,Quebec,Non-Aboriginal,2335
+2421025,Beaupr_,89,63,94,86,83,35%,Quebec,Non-Aboriginal,3130
 4612056,Beausejour,86,48,97,89,80,21%,Manitoba,Non-Aboriginal,3005
 4718033,Beauval,72,36,93,66,67,36%,Saskatchewan,Non-Aboriginal,755
 4810016,Beaver County,87,55,93,91,81,43%,Alberta,Non-Aboriginal,5520
@@ -181,8 +184,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4620043,Benito,77,41,98,94,77,31%,Manitoba,Non-Aboriginal,360
 4808026,Bentley,87,54,96,86,81,42%,Alberta,Non-Aboriginal,1065
 4619077,Berens River 13,51,23,50,77,50,7%,Manitoba,First Nation,1035
-1315012,Beresford,81,47,95,81,76,32%,New Brunswick,Non-Aboriginal,6240
 1315015,Beresford,85,54,93,84,79,31%,New Brunswick,Non-Aboriginal,4305
+1315012,Beresford,81,47,95,81,76,32%,New Brunswick,Non-Aboriginal,6240
 2418065,Berthier-sur-Mer,88,58,98,84,82,27%,Quebec,Non-Aboriginal,1385
 2452035,Berthierville,81,47,96,82,76,23%,Quebec,Non-Aboriginal,3860
 1315036,Bertrand,78,48,96,83,76,33%,New Brunswick,Non-Aboriginal,1075
@@ -246,6 +249,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2480145,Bowman,83,48,96,77,76,40%,Quebec,Non-Aboriginal,635
 4817842,Boyer 164,,,,,51,17%,Alberta,First Nation,225
 4813046,Boyle,89,43,96,89,79,33%,Alberta,Non-Aboriginal,925
+2478075,Br_beuf,80,52,96,90,80,47%,Quebec,Non-Aboriginal,1010
 3544018,Bracebridge,89,63,95,86,83,33%,Ontario,Non-Aboriginal,15010
 1102048,Brackley,91,63,97,92,86,42%,Prince Edward Island,Non-Aboriginal,335
 3543014,Bradford West Gwillimbury,89,59,97,89,84,28%,Ontario,Non-Aboriginal,27720
@@ -282,7 +286,6 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3547020,Brudenell Lyndoch and Raglan,75,50,87,79,73,44%,Ontario,Non-Aboriginal,1515
 4810066,Bruderheim,90,54,93,87,81,48%,Alberta,Non-Aboriginal,1235
 4715012,Bruno,87,44,93,85,77,46%,Saskatchewan,Non-Aboriginal,565
-2478075,Br�beuf,80,52,96,90,80,47%,Quebec,Non-Aboriginal,1010
 4709053,Buchanan,,,,,74,43%,Saskatchewan,Non-Aboriginal,225
 4709049,Buchanan No. 304,85,47,88,92,78,49%,Saskatchewan,Non-Aboriginal,405
 1006031,Buchans,80,50,98,65,74,30%,Newfoundland and Labrador,Non-Aboriginal,695
@@ -309,9 +312,6 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 6001039,Burwash Landing,,,,,77,24%,Yukon,First Nation,95
 2441070,Bury,76,61,93,85,78,49%,Quebec,Non-Aboriginal,1165
 4817848,Bushe River 207,59,23,61,57,50,7%,Alberta,First Nation,495
-2485020,B�arn,78,57,96,80,78,42%,Quebec,Non-Aboriginal,775
-2438010,B�cancour,89,60,95,86,83,21%,Quebec,Non-Aboriginal,12010
-2494250,B�gin,81,47,89,82,75,47%,Quebec,Non-Aboriginal,860
 4708032,Cabri,91,57,92,95,84,49%,Saskatchewan,Non-Aboriginal,380
 5933024,Cache Creek,84,43,97,86,77,39%,British Columbia,Non-Aboriginal,1015
 2412057,Cacouna,83,57,95,82,79,38%,Quebec,Non-Aboriginal,1890
@@ -319,7 +319,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4709001,Calder No. 241,81,63,80,94,80,49%,Saskatchewan,Non-Aboriginal,320
 3521024,Caledon,96,67,97,90,87,24%,Ontario,Non-Aboriginal,58975
 4806016,Calgary,100,70,95,89,89,23%,Alberta,Non-Aboriginal,1082230
-2459030,Calixa-Lavall�e,86,64,90,91,83,40%,Quebec,Non-Aboriginal,505
+2459030,Calixa-Lavall_e,86,64,90,91,83,40%,Quebec,Non-Aboriginal,505
 3549066,Callander,95,67,99,84,86,40%,Ontario,Non-Aboriginal,3750
 4811019,Calmar,92,59,96,90,84,46%,Alberta,Non-Aboriginal,2000
 3548022,Calvin,85,60,70,78,73,47%,Ontario,Non-Aboriginal,565
@@ -348,7 +348,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4716051,Canwood No. 494,78,53,83,93,77,46%,Saskatchewan,Non-Aboriginal,1425
 2404047,Cap-Chat,76,37,89,69,68,26%,Quebec,Non-Aboriginal,2485
 2418045,Cap-Saint-Ignace,82,54,98,87,80,36%,Quebec,Non-Aboriginal,2960
-2434030,Cap-Sant�,88,61,98,88,84,38%,Quebec,Non-Aboriginal,2905
+2434030,Cap-Sant_,88,61,98,88,84,38%,Quebec,Non-Aboriginal,2905
 1217030,Cape Breton,82,57,94,78,78,28%,Nova Scotia,Non-Aboriginal,95475
 6204007,Cape Dorset,73,29,62,71,59,18%,Nunavut,Inuit,1365
 5924817,Cape Mudge 10,,,,,69,12%,British Columbia,First Nation,140
@@ -391,7 +391,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4806029,Carstairs,91,56,96,88,83,45%,Alberta,Non-Aboriginal,3395
 4610043,Cartier,90,66,93,91,85,45%,Manitoba,Non-Aboriginal,1940
 1010012,Cartwright Labrador,77,38,83,64,66,8%,Newfoundland and Labrador,Non-Aboriginal,515
-2405077,Cascap�dia--Saint-Jules,76,57,85,60,69,35%,Quebec,Non-Aboriginal,745
+2405077,Cascap_dia--Saint-Jules,76,57,85,60,69,35%,Quebec,Non-Aboriginal,745
 3554029,Casey,79,58,96,98,83,39%,Ontario,Non-Aboriginal,370
 3502044,Casselman,91,59,96,90,84,26%,Ontario,Non-Aboriginal,3500
 5903045,Castlegar,88,61,95,84,82,24%,British Columbia,Non-Aboriginal,7550
@@ -415,6 +415,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3523025,Centre Wellington,92,64,96,90,86,34%,Ontario,Non-Aboriginal,26210
 1311019,Centreville,87,61,96,86,82,43%,New Brunswick,Non-Aboriginal,540
 1007050,Centreville-Wareham-Trinity,77,37,97,64,69,14%,Newfoundland and Labrador,Non-Aboriginal,1145
+2480103,Ch_n_ville,80,42,96,83,75,36%,Quebec,Non-Aboriginal,805
 2457005,Chambly,89,66,97,91,86,19%,Quebec,Non-Aboriginal,25280
 2491020,Chambord,85,59,94,84,81,44%,Quebec,Non-Aboriginal,1725
 4805004,Champion,73,35,71,70,62,20%,Alberta,Non-Aboriginal,375
@@ -458,9 +459,9 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4817843,Child Lake 164A,,,,,56,2%,Alberta,First Nation,190
 5931815,Chilhil 6,,,,,59,14%,British Columbia,First Nation,70
 5909020,Chilliwack,84,60,96,86,81,22%,British Columbia,Non-Aboriginal,76925
-4810062,Chipman,91,47,85,77,75,25%,Alberta,Non-Aboriginal,285
 1304025,Chipman,79,39,95,71,71,41%,New Brunswick,Non-Aboriginal,1285
 1304024,Chipman,79,49,96,72,74,48%,New Brunswick,Non-Aboriginal,1120
+4810062,Chipman,91,47,85,77,75,25%,Alberta,Non-Aboriginal,285
 3519076,Chippewas of Georgina Island First Nation,,,,,74,12%,Ontario,First Nation,235
 3539017,Chippewas of the Thames First Nation 42,56,43,68,61,57,19%,Ontario,First Nation,805
 2499814,Chisasibi,74,32,65,78,62,15%,Quebec,First Nation,4470
@@ -473,7 +474,6 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4705093,Churchbridge No. 211,94,63,97,97,88,37%,Saskatchewan,Non-Aboriginal,485
 4623056,Churchill,95,56,93,84,82,43%,Manitoba,Non-Aboriginal,850
 2479065,Chute-Saint-Philippe,79,42,96,75,73,24%,Quebec,Non-Aboriginal,875
-2480103,Ch�n�ville,80,42,96,83,75,36%,Quebec,Non-Aboriginal,805
 2421035,Ch�teau-Richer,87,60,95,89,82,46%,Quebec,Non-Aboriginal,3765
 2467050,Ch�teauguay,83,59,95,86,81,25%,Quebec,Non-Aboriginal,45150
 1313038,Clair,100,64,91,86,85,36%,New Brunswick,Non-Aboriginal,280
@@ -491,8 +491,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5933067,Clearwater,85,60,91,81,79,46%,British Columbia,Non-Aboriginal,2475
 4809002,Clearwater County,94,56,95,88,83,45%,Alberta,Non-Aboriginal,12195
 4718839,Clearwater River Dene 222,51,25,37,57,42,9%,Saskatchewan,First Nation,795
-2487110,Clermont,83,39,98,71,73,30%,Quebec,Non-Aboriginal,500
 2415035,Clermont,83,54,97,84,79,22%,Quebec,Non-Aboriginal,3035
+2487110,Clermont,83,39,98,71,73,30%,Quebec,Non-Aboriginal,500
 2487075,Clerval,80,45,96,69,72,49%,Quebec,Non-Aboriginal,365
 2442110,Cleveland,79,52,98,82,78,43%,Quebec,Non-Aboriginal,1445
 4704009,Climax,,,,,79,39%,Saskatchewan,Non-Aboriginal,180
@@ -550,8 +550,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1005014,Cormack,73,49,97,73,73,46%,Newfoundland and Labrador,Non-Aboriginal,695
 4711065,Corman Park No. 344,100,68,96,91,89,36%,Saskatchewan,Non-Aboriginal,8095
 1005018,Corner Brook,84,58,94,80,79,29%,Newfoundland and Labrador,Non-Aboriginal,19505
-1102085,Cornwall,84,69,97,87,84,48%,Prince Edward Island,Non-Aboriginal,5135
 3501012,Cornwall,80,53,93,80,77,26%,Ontario,Non-Aboriginal,44990
+1102085,Cornwall,84,69,97,87,84,48%,Prince Edward Island,Non-Aboriginal,5135
 4607060,Cornwallis,88,61,95,92,84,24%,Manitoba,Non-Aboriginal,4300
 5949810,Coryatsaqua (Moricetown) 2,,,,,64,8%,British Columbia,First Nation,85
 4709819,Cote 64,42,41,65,65,53,22%,Saskatchewan,First Nation,760
@@ -604,6 +604,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4801003,Cypress County,92,56,95,89,83,39%,Alberta,Non-Aboriginal,7020
 4807004,Czar,,,,,78,43%,Alberta,Non-Aboriginal,165
 2466058,C�te-Saint-Luc,94,73,92,84,86,24%,Quebec,Non-Aboriginal,31225
+2413005,D_gelis,78,46,97,83,76,14%,Quebec,Non-Aboriginal,2920
+6102003,D_line,81,33,64,72,63,23%,Northwest Territories,First Nation,475
 4609026,Dakota Plains 6A,,,,,54,32%,Manitoba,First Nation,110
 4609027,Dakota Tipi 1,,,,,50,14%,Manitoba,First Nation,160
 1314017,Dalhousie,81,51,95,74,75,19%,New Brunswick,Non-Aboriginal,3320
@@ -643,8 +645,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4810046,Dewberry,,,,,76,36%,Alberta,Non-Aboriginal,130
 4806032,Didsbury,90,58,96,89,83,33%,Alberta,Non-Aboriginal,4805
 1307045,Dieppe,92,68,99,90,87,19%,New Brunswick,Non-Aboriginal,22830
-1203004,Digby,75,47,87,77,71,31%,Nova Scotia,Non-Aboriginal,7440
 1203006,Digby,76,48,93,77,73,44%,Nova Scotia,Non-Aboriginal,2030
+1203004,Digby,75,47,87,77,71,31%,Nova Scotia,Non-Aboriginal,7440
 4712016,Dinsmore,80,56,87,92,79,48%,Saskatchewan,Non-Aboriginal,300
 2431015,Disraeli,74,46,93,83,74,39%,Quebec,Non-Aboriginal,2425
 1001304,Division No.  1 Subd. E,80,48,96,78,76,20%,Newfoundland and Labrador,Non-Aboriginal,2990
@@ -729,8 +731,6 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2487085,Dupuy,83,46,94,81,76,30%,Quebec,Non-Aboriginal,930
 3534030,Dutton/Dunwich,86,60,92,88,81,23%,Ontario,Non-Aboriginal,3735
 4711002,Duval,,,,,85,32%,Saskatchewan,Non-Aboriginal,65
-2413005,D�gelis,78,46,97,83,76,14%,Quebec,Non-Aboriginal,2920
-6102003,D�line,81,33,64,72,63,23%,Northwest Territories,First Nation,475
 3560024,Eagle Lake 27,,,,,65,11%,Ontario,First Nation,225
 4717816,Eagles Lake 165C,,,,,67,11%,Saskatchewan,First Nation,95
 3560032,Ear Falls,86,54,96,83,80,32%,Ontario,Non-Aboriginal,985
@@ -800,10 +800,10 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5917040,Esquimalt,89,64,95,87,84,28%,British Columbia,Non-Aboriginal,15935
 3543021,Essa,90,61,95,89,84,32%,Ontario,Non-Aboriginal,17970
 3537016,Essex,88,59,97,84,82,30%,Ontario,Non-Aboriginal,19200
+2477011,Est_rel,,,,,87,43%,Quebec,Non-Aboriginal,200
 4705052,Esterhazy,95,53,96,90,83,27%,Saskatchewan,Non-Aboriginal,2445
 4701024,Estevan,100,56,93,92,85,21%,Saskatchewan,Non-Aboriginal,10840
 4708076,Eston,83,51,87,87,77,33%,Saskatchewan,Non-Aboriginal,1005
-2477011,Est�rel,,,,,87,43%,Quebec,Non-Aboriginal,200
 4617063,Ethelbert,66,33,79,84,65,48%,Manitoba,Non-Aboriginal,330
 3554049,Evanturel,93,52,95,85,81,48%,Ontario,Non-Aboriginal,445
 4703029,Excel No. 71,74,57,83,88,76,47%,Saskatchewan,Non-Aboriginal,350
@@ -908,7 +908,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4715079,Garden River No. 490,88,55,92,92,82,50%,Saskatchewan,Non-Aboriginal,640
 4709019,Garry No. 245,78,57,92,99,82,44%,Saskatchewan,Non-Aboriginal,425
 1001174,Gaskiers-Point La Haye,,,,,71,39%,Newfoundland and Labrador,Non-Aboriginal,235
-2403005,Gasp�,84,54,94,84,79,25%,Quebec,Non-Aboriginal,14740
+2403005,Gasp_,84,54,94,84,79,25%,Quebec,Non-Aboriginal,14740
 2481017,Gatineau,90,63,96,88,84,23%,Quebec,Non-Aboriginal,261665
 1003012,Gaultois,,,,,63,35%,Newfoundland and Labrador,Non-Aboriginal,180
 1101024,Georgetown,78,38,97,79,73,42%,Prince Edward Island,Non-Aboriginal,585
@@ -918,8 +918,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4811064,Gibbons,93,59,97,87,84,44%,Alberta,Non-Aboriginal,2985
 5929005,Gibsons,89,67,93,86,84,26%,British Columbia,Non-Aboriginal,4225
 4617053,Gilbert Plains,84,47,89,97,79,48%,Manitoba,Non-Aboriginal,665
-4623022,Gillam,93,54,95,90,83,41%,Manitoba,Non-Aboriginal,1190
 4623025,Gillam,,,,,53,34%,Manitoba,First Nation,75
+4623022,Gillam,93,54,95,90,83,41%,Manitoba,Non-Aboriginal,1190
 1005015,Gillams,,,,,77,37%,Newfoundland and Labrador,Non-Aboriginal,405
 3558012,Gillies,87,58,87,94,81,45%,Ontario,Non-Aboriginal,475
 4618031,Gimli,89,56,95,81,80,36%,Manitoba,Non-Aboriginal,5720
@@ -962,7 +962,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1302001,Grand Manan,,,,,70,20%,New Brunswick,Non-Aboriginal,160
 4621027,Grand Rapids 33,49,12,66,65,48,4%,Manitoba,First Nation,715
 1002030,Grand le Pierre,,,,,72,23%,Newfoundland and Labrador,Non-Aboriginal,145
-2409060,Grand-M�tis,,,,,71,45%,Quebec,Non-Aboriginal,215
+2409060,Grand-M_tis,,,,,71,45%,Quebec,Non-Aboriginal,215
 2483095,Grand-Remous,77,42,87,75,70,45%,Quebec,Non-Aboriginal,1130
 2450065,Grand-Saint-Esprit,80,48,93,89,78,39%,Quebec,Non-Aboriginal,475
 4818005,Grande Cache,97,61,94,91,86,35%,Alberta,Non-Aboriginal,4230
@@ -970,7 +970,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4819006,Grande Prairie County No. 1,96,56,95,91,85,38%,Alberta,Non-Aboriginal,20185
 1315038,Grande-Anse,82,45,96,74,74,35%,New Brunswick,Non-Aboriginal,735
 2402015,Grande-Rivi�re,76,38,94,73,70,30%,Quebec,Non-Aboriginal,3430
-2403020,Grande-Vall�e,82,50,98,77,77,22%,Quebec,Non-Aboriginal,1115
+2403020,Grande-Vall_e,82,50,98,77,77,22%,Quebec,Non-Aboriginal,1115
 4718831,Grandmother's Bay 219,52,24,62,71,53,13%,Saskatchewan,First Nation,340
 4617060,Grandview,82,46,95,83,76,41%,Manitoba,Non-Aboriginal,800
 4617057,Grandview,81,58,95,83,79,46%,Manitoba,Non-Aboriginal,610
@@ -992,13 +992,16 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 6204025,Grise Fiord,,,,,75,8%,Nunavut,Inuit,130
 3557078,Gros Cap 49,,,,,69,29%,Ontario,First Nation,65
 2408015,Grosses-Roches,70,34,94,73,68,30%,Quebec,Non-Aboriginal,415
+2485095,Gu_rin,76,52,87,85,75,42%,Quebec,Non-Aboriginal,305
 3523008,Guelph,91,68,96,88,86,24%,Ontario,Non-Aboriginal,120555
 3523009,Guelph/Eramosa,97,69,97,90,88,37%,Ontario,Non-Aboriginal,12190
 5949843,Guhthe Tah 12,,,,,66,22%,British Columbia,First Nation,160
 4708011,Gull Lake,81,46,92,93,78,45%,Saskatchewan,Non-Aboriginal,940
 4808028,Gull Lake,,,,,92,40%,Alberta,Non-Aboriginal,65
 1213004,Guysborough,80,44,92,78,74,37%,Nova Scotia,Non-Aboriginal,4160
-2485095,Gu�rin,76,52,87,85,75,42%,Quebec,Non-Aboriginal,305
+2493020,H_bertville,82,55,97,89,81,48%,Quebec,Non-Aboriginal,2365
+2493025,H_bertville-Station,80,58,97,85,80,36%,Quebec,Non-Aboriginal,1220
+2435035,H_rouxville,80,48,98,81,77,45%,Quebec,Non-Aboriginal,1480
 5949811,Hagwilget 1,,,,,56,11%,British Columbia,First Nation,235
 6001018,Haines Junction,93,63,87,88,83,18%,Yukon,First Nation,620
 5919801,Halalt 2,,,,,58,29%,British Columbia,First Nation,160
@@ -1009,10 +1012,10 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 6204011,Hall Beach,70,22,62,64,54,16%,Nunavut,Inuit,540
 3524015,Halton Hills,97,67,97,91,88,26%,Ontario,Non-Aboriginal,57945
 2439010,Ham-Nord,,,,,81,44%,Quebec,Non-Aboriginal,795
-3514019,Hamilton,92,65,97,87,85,35%,Ontario,Non-Aboriginal,10420
 3525005,Hamilton,88,61,95,84,82,29%,Ontario,Non-Aboriginal,509640
-4615036,Hamiota,87,76,93,96,88,34%,Manitoba,Non-Aboriginal,395
+3514019,Hamilton Township,92,65,97,87,85,35%,Ontario,Non-Aboriginal,10420
 4615038,Hamiota,83,57,98,83,80,44%,Manitoba,Non-Aboriginal,815
+4615036,Hamiota,87,76,93,96,88,34%,Manitoba,Non-Aboriginal,395
 1305001,Hammond,,,,,82,44%,New Brunswick,Non-Aboriginal,295
 1005008,Hampden,76,32,91,56,64,23%,Newfoundland and Labrador,Non-Aboriginal,440
 2466062,Hampstead,100,84,93,86,91,29%,Quebec,Non-Aboriginal,7150
@@ -1106,9 +1109,6 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3541015,Huron-Kinloss,94,57,96,88,84,38%,Ontario,Non-Aboriginal,6640
 4805019,Hussar,,,,,86,26%,Alberta,Non-Aboriginal,175
 4709071,Hyas,,,,,71,40%,Saskatchewan,Non-Aboriginal,125
-2493020,H�bertville,82,55,97,89,81,48%,Quebec,Non-Aboriginal,2365
-2493025,H�bertville-Station,80,58,97,85,80,36%,Quebec,Non-Aboriginal,1220
-2435035,H�rouxville,80,48,98,81,77,45%,Quebec,Non-Aboriginal,1480
 3560001,Ignace,81,51,91,76,75,45%,Ontario,Non-Aboriginal,1330
 4622064,Ilford,,,,,61,11%,Manitoba,First Nation,140
 4803003,Improvement District No.  4 Waterton,,,,,81,32%,Alberta,Non-Aboriginal,75
@@ -1190,8 +1190,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3560066,Kenora 38B,57,35,78,73,61,14%,Ontario,First Nation,395
 3560090,Kenora Unorganized,93,60,93,83,82,46%,Ontario,Non-Aboriginal,6555
 1103014,Kensington,81,53,97,85,79,49%,Prince Edward Island,Non-Aboriginal,1420
-5909032,Kent,83,58,95,87,81,36%,British Columbia,Non-Aboriginal,4825
 1311028,Kent,75,53,93,82,76,38%,New Brunswick,Non-Aboriginal,2120
+5909032,Kent,83,58,95,87,81,36%,British Columbia,Non-Aboriginal,4825
 1207012,Kentville,84,66,96,82,82,18%,Nova Scotia,Non-Aboriginal,5850
 3554024,Kerns,74,53,88,92,77,49%,Ontario,Non-Aboriginal,360
 3538056,Kettle Point 44,62,46,79,72,65,21%,Ontario,First Nation,935
@@ -1253,12 +1253,12 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5909821,Kwawkwawapilt 6,79,44,96,70,72,21%,British Columbia,First Nation,345
 4708044,Kyle,82,49,88,94,78,30%,Saskatchewan,Non-Aboriginal,415
 2423057,L'Ancienne-Lorette,91,67,97,89,86,17%,Quebec,Non-Aboriginal,16510
-2482005,L'Ange-Gardien,90,58,94,88,83,30%,Quebec,Non-Aboriginal,5015
 2421040,L'Ange-Gardien,90,63,95,90,84,25%,Quebec,Non-Aboriginal,3580
+2482005,L'Ange-Gardien,90,58,94,88,83,30%,Quebec,Non-Aboriginal,5015
 1010004,L'Anse-au-Clair,,,,,77,25%,Newfoundland and Labrador,Non-Aboriginal,190
 2479050,L'Ascension,78,47,97,69,73,48%,Quebec,Non-Aboriginal,845
 2493065,L'Ascension-de-Notre-Seigneur,78,47,96,79,75,32%,Quebec,Non-Aboriginal,1955
-2406060,L'Ascension-de-Patap�dia,,,,,60,30%,Quebec,Non-Aboriginal,190
+2406060,L'Ascension-de-Patap_dia,,,,,60,30%,Quebec,Non-Aboriginal,190
 2460028,L'Assomption,85,55,97,89,82,22%,Quebec,Non-Aboriginal,19740
 2449025,L'Avenir,76,48,91,85,75,28%,Quebec,Non-Aboriginal,1195
 2412043,L'Isle-Verte,79,48,96,85,77,33%,Quebec,Non-Aboriginal,1335
@@ -1268,10 +1268,12 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2471060,L'�le-Perrot,88,62,96,88,83,16%,Quebec,Non-Aboriginal,10380
 2460040,L'�piphanie,82,50,97,86,79,46%,Quebec,Non-Aboriginal,3270
 2460035,L'�piphanie,78,50,98,86,78,34%,Quebec,Non-Aboriginal,5185
+2467055,L_ry,93,63,93,92,85,33%,Quebec,Non-Aboriginal,2305
+2425213,L_vis,90,66,97,90,86,16%,Quebec,Non-Aboriginal,135835
 2490017,La Bostonnais,84,49,94,77,76,49%,Quebec,Non-Aboriginal,505
 4602053,La Broquerie,75,51,92,89,77,44%,Manitoba,Non-Aboriginal,5200
 2488030,La Corne,88,57,97,91,83,41%,Quebec,Non-Aboriginal,695
-2491050,La Dor�,76,44,99,81,75,44%,Quebec,Non-Aboriginal,1410
+2491050,La Dor_,76,44,99,81,75,44%,Quebec,Non-Aboriginal,1410
 2419090,La Durantaye,81,53,96,87,79,41%,Quebec,Non-Aboriginal,720
 2429030,La Guadeloupe,78,43,97,89,77,38%,Quebec,Non-Aboriginal,1730
 4718074,La Loche,60,18,57,56,48,17%,Saskatchewan,Non-Aboriginal,2625
@@ -1282,8 +1284,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2441027,La Patrie,69,52,98,83,76,33%,Quebec,Non-Aboriginal,745
 4718807,La Plonge 192,,,,,64,14%,Saskatchewan,First Nation,120
 2414085,La Pocati�re,84,60,98,86,82,33%,Quebec,Non-Aboriginal,3970
+2454035,La Pr_sentation,86,57,95,89,82,21%,Quebec,Non-Aboriginal,2465
 2467015,La Prairie,93,68,97,90,87,18%,Quebec,Non-Aboriginal,22965
-2454035,La Pr�sentation,86,57,95,89,82,21%,Quebec,Non-Aboriginal,2465
 2482035,La P�che,91,62,94,86,83,40%,Quebec,Non-Aboriginal,7480
 2487080,La Reine,83,46,92,80,75,20%,Quebec,Non-Aboriginal,335
 2498804,La Romaine,46,16,62,62,46,21%,Quebec,First Nation,985
@@ -1311,13 +1313,13 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2430080,Lac-Drolet,77,43,96,90,76,29%,Quebec,Non-Aboriginal,1080
 2428053,Lac-Etchemin,83,53,96,85,79,22%,Quebec,Non-Aboriginal,3715
 2418010,Lac-Fronti�re,,,,,73,23%,Quebec,Non-Aboriginal,200
-2430030,Lac-M�gantic,81,47,98,84,78,24%,Quebec,Non-Aboriginal,5590
+2430030,Lac-M_gantic,81,47,98,84,78,24%,Quebec,Non-Aboriginal,5590
 2429095,Lac-Poulin,,,,,85,46%,Quebec,Non-Aboriginal,120
 2479060,Lac-Saguay,76,40,97,70,71,49%,Quebec,Non-Aboriginal,435
 2422015,Lac-Saint-Joseph,,,,,90,0%,Quebec,Non-Aboriginal,215
 2479105,Lac-Saint-Paul,,,,,74,45%,Quebec,Non-Aboriginal,475
 2489804,Lac-Simon,42,22,60,53,44,20%,Quebec,First Nation,1395
-2478095,Lac-Sup�rieur,82,59,93,82,79,47%,Quebec,Non-Aboriginal,1875
+2478095,Lac-Sup_rieur,82,59,93,82,79,47%,Quebec,Non-Aboriginal,1875
 2407057,Lac-au-Saumon,78,47,94,75,74,47%,Quebec,Non-Aboriginal,1325
 2479078,Lac-des-�corces,73,45,95,73,72,43%,Quebec,Non-Aboriginal,2760
 2479015,Lac-du-Cerf,,,,,76,48%,Quebec,Non-Aboriginal,440
@@ -1346,8 +1348,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4810058,Lamont County,97,55,93,91,84,45%,Alberta,Non-Aboriginal,3770
 1315032,Lam�que,80,49,95,86,78,35%,New Brunswick,Non-Aboriginal,1245
 4705047,Langenburg No. 181,95,55,87,93,82,46%,Saskatchewan,Non-Aboriginal,610
-5917044,Langford,90,65,98,90,86,24%,British Columbia,Non-Aboriginal,28955
 4615018,Langford,87,63,96,91,84,50%,Manitoba,Non-Aboriginal,705
+5917044,Langford,90,65,98,90,86,24%,British Columbia,Non-Aboriginal,28955
 5915002,Langley,86,60,95,87,82,24%,British Columbia,Non-Aboriginal,24485
 5915001,Langley,91,66,97,89,85,25%,British Columbia,Non-Aboriginal,103145
 4711049,Lanigan,88,59,96,89,83,47%,Saskatchewan,Non-Aboriginal,1475
@@ -1373,7 +1375,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1008048,Leading Tickles,70,23,95,65,63,22%,Newfoundland and Labrador,Non-Aboriginal,325
 3537003,Leamington,81,45,95,83,76,27%,Ontario,Non-Aboriginal,26525
 4716042,Leask,82,52,87,58,70,48%,Saskatchewan,Non-Aboriginal,380
-2499005,Lebel-sur-Qu�villon,91,52,94,78,79,46%,Quebec,Non-Aboriginal,2120
+2499005,Lebel-sur-Qu_villon,91,52,94,78,79,46%,Quebec,Non-Aboriginal,2120
 4706049,Lebret,,,,,82,32%,Saskatchewan,Non-Aboriginal,90
 2433123,Leclercville,74,40,92,90,74,30%,Quebec,Non-Aboriginal,475
 4811016,Leduc,96,61,96,91,86,28%,Alberta,Non-Aboriginal,24090
@@ -1390,7 +1392,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2471050,Les C�dres,88,59,96,94,84,22%,Quebec,Non-Aboriginal,6055
 2495025,Les Escoumins,86,56,92,83,79,23%,Quebec,Non-Aboriginal,1975
 2409015,Les Hauteurs,76,45,97,84,76,47%,Quebec,Non-Aboriginal,515
-2408005,Les M�chins,79,40,93,76,72,44%,Quebec,Non-Aboriginal,1100
+2408005,Les M_chins,79,40,93,76,72,44%,Quebec,Non-Aboriginal,1100
 2416048,Les �boulements,81,54,97,83,79,30%,Quebec,Non-Aboriginal,1295
 2401023,Les �les-de-la-Madeleine,81,45,94,81,75,41%,Quebec,Non-Aboriginal,12490
 4817033,Lesser Slave River No.124,92,53,89,90,81,46%,Alberta,Non-Aboriginal,3050
@@ -1497,9 +1499,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1008056,Lushes Bight-Beaumont-Beaumont North,,,,,65,45%,Newfoundland and Labrador,Non-Aboriginal,120
 6105020,Lutselk'e,83,34,76,70,66,23%,Northwest Territories,First Nation,275
 2432065,Lyster,79,56,91,88,78,30%,Quebec,Non-Aboriginal,1575
-2467055,L�ry,93,63,93,92,85,33%,Quebec,Non-Aboriginal,2305
-2425213,L�vis,90,66,97,90,86,16%,Quebec,Non-Aboriginal,135835
 3551045,M'Chigeeng 22 (West Bay 22),65,53,81,75,69,16%,Ontario,First Nation,895
+2493012,M_tabetchouan--Lac-�-la-Croix,82,58,98,84,80,28%,Quebec,Non-Aboriginal,3850
 4811008,Ma-Me-O Beach,,,,,83,28%,Alberta,Non-Aboriginal,70
 4608048,MacGregor,82,47,93,90,78,20%,Manitoba,Non-Aboriginal,935
 2487058,Macamic,83,48,95,84,77,47%,Quebec,Non-Aboriginal,2640
@@ -1517,8 +1518,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1206008,Mahone Bay,89,63,99,79,82,28%,Nova Scotia,Non-Aboriginal,880
 1315040,Maisonnette,74,37,91,69,67,37%,New Brunswick,Non-Aboriginal,570
 4713021,Major,,,,,83,34%,Saskatchewan,Non-Aboriginal,75
-4810805,Makaoo (Part) 120,,,,,43,8%,Alberta,First Nation,180
 4717802,Makaoo (Part) 120,48,27,56,70,50,34%,Saskatchewan,First Nation,410
+4810805,Makaoo (Part) 120,,,,,43,8%,Alberta,First Nation,180
 1011020,Makkovik,81,45,87,72,71,24%,Newfoundland and Labrador,Inuit,365
 4717807,Makwa Lake 129B,44,33,60,66,51,12%,Saskatchewan,First Nation,905
 5919814,Malachan 11,,,,,60,32%,British Columbia,First Nation,160
@@ -1562,20 +1563,20 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1002024,Marystown,84,54,96,74,77,39%,Newfoundland and Labrador,Non-Aboriginal,5440
 2464015,Mascouche,86,58,97,90,83,13%,Quebec,Non-Aboriginal,41875
 2491802,Mashteuiatsh,74,51,93,73,73,26%,Quebec,First Nation,2195
-2451008,Maskinong�,80,50,96,84,78,23%,Quebec,Non-Aboriginal,2175
+2451008,Maskinong_,80,50,96,84,78,23%,Quebec,Non-Aboriginal,2175
 5947803,Masset 1,63,33,64,75,59,48%,British Columbia,First Nation,615
 1005017,Massey Drive,,,,,86,48%,Newfoundland and Labrador,Non-Aboriginal,1360
 2453010,Massueville,76,41,97,81,74,39%,Quebec,Non-Aboriginal,520
 3554056,Matachewan,75,47,84,72,70,42%,Ontario,Non-Aboriginal,265
 3554057,Matachewan 72,,,,,73,41%,Ontario,First Nation,85
 2408053,Matane,83,53,97,82,79,21%,Quebec,Non-Aboriginal,14075
-2406045,Matap�dia,78,53,94,72,74,29%,Quebec,Non-Aboriginal,645
+2406045,Matap_dia,78,53,94,72,74,29%,Quebec,Non-Aboriginal,645
 2497808,Matimekosh,66,24,77,78,61,20%,Quebec,First Nation,540
 5915825,Matsqui 4,79,46,96,62,71,43%,British Columbia,First Nation,385
 5909878,Matsqui Main 2,,,,,59,19%,British Columbia,First Nation,80
 3548021,Mattawa,78,51,87,73,72,46%,Ontario,Non-Aboriginal,1980
 3548019,Mattawan,,,,,85,48%,Ontario,Non-Aboriginal,120
-3556077,Mattice-Val C�t�,86,36,84,74,70,33%,Ontario,Non-Aboriginal,665
+3556077,Mattice-Val C�t_,86,36,84,74,70,33%,Ontario,Non-Aboriginal,665
 1303016,Maugerville,84,56,92,87,80,34%,New Brunswick,Non-Aboriginal,1775
 2480065,Mayo,78,47,93,90,77,39%,Quebec,Non-Aboriginal,570
 5953012,McBride,69,47,90,78,71,37%,British Columbia,Non-Aboriginal,575
@@ -1651,8 +1652,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2499804,Mistissini,74,33,72,77,64,17%,Quebec,First Nation,3405
 3543050,Mnjikaning First Nation 32 (Rama First Nation 32),74,49,89,79,73,10%,Ontario,First Nation,865
 2485075,Moffet,,,,,69,16%,Quebec,Non-Aboriginal,195
-1307022,Moncton,86,64,96,87,83,26%,New Brunswick,Non-Aboriginal,67450
 1307019,Moncton,85,58,95,86,81,21%,New Brunswick,Non-Aboriginal,9405
+1307022,Moncton,86,64,96,87,83,26%,New Brunswick,Non-Aboriginal,67450
 4708092,Monet No. 257,,,,,87,44%,Saskatchewan,Non-Aboriginal,370
 3522012,Mono,100,67,97,87,87,49%,Ontario,Non-Aboriginal,7490
 2404902,Mont-Albert,,,,,75,34%,Quebec,Non-Aboriginal,145
@@ -1660,7 +1661,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2409077,Mont-Joli,78,52,94,81,76,44%,Quebec,Non-Aboriginal,6180
 2479088,Mont-Laurier,80,51,96,82,77,34%,Quebec,Non-Aboriginal,13395
 2466072,Mont-Royal,100,83,95,88,92,21%,Quebec,Non-Aboriginal,19115
-2456097,Mont-Saint-Gr�goire,86,56,95,87,81,24%,Quebec,Non-Aboriginal,2910
+2456097,Mont-Saint-Gr_goire,86,56,95,87,81,24%,Quebec,Non-Aboriginal,2910
 2457035,Mont-Saint-Hilaire,97,72,97,90,89,15%,Quebec,Non-Aboriginal,17590
 2479110,Mont-Saint-Michel,68,38,99,78,71,28%,Quebec,Non-Aboriginal,635
 2404015,Mont-Saint-Pierre,,,,,76,39%,Quebec,Non-Aboriginal,190
@@ -1673,12 +1674,12 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2480010,Montebello,83,52,95,81,78,39%,Quebec,Non-Aboriginal,930
 2418050,Montmagny,82,49,97,85,78,19%,Quebec,Non-Aboriginal,11070
 2480090,Montpellier,74,47,96,75,73,34%,Quebec,Non-Aboriginal,1035
+2466023,Montr_al,84,65,92,83,81,21%,Quebec,Non-Aboriginal,1612640
+2466007,Montr_al-Est,80,50,91,83,76,28%,Quebec,Non-Aboriginal,3600
+2466047,Montr_al-Ouest,100,82,95,87,91,18%,Quebec,Non-Aboriginal,5075
 4718802,Montreal Lake 106,40,33,65,57,49,14%,Saskatchewan,First Nation,980
 4715853,Montreal Lake 106B,39,33,57,59,47,16%,Saskatchewan,First Nation,415
 5905009,Montrose,97,60,95,86,85,38%,British Columbia,Non-Aboriginal,1015
-2466023,Montr�al,84,65,92,83,81,21%,Quebec,Non-Aboriginal,1612640
-2466007,Montr�al-Est,80,50,91,83,76,28%,Quebec,Non-Aboriginal,3600
-2466047,Montr�al-Ouest,100,82,95,87,91,18%,Quebec,Non-Aboriginal,5075
 3556056,Moonbeam,91,46,92,79,77,42%,Ontario,Non-Aboriginal,1080
 4707039,Moose Jaw,87,55,94,88,81,25%,Saskatchewan,Non-Aboriginal,32345
 4621058,Moose Lake 31A,41,14,55,53,41,4%,Manitoba,First Nation,990
@@ -1695,8 +1696,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2477050,Morin-Heights,94,68,96,85,86,26%,Quebec,Non-Aboriginal,3890
 4811068,Morinville,92,60,97,91,85,29%,Alberta,Non-Aboriginal,8470
 4805038,Morrin,,,,,79,45%,Alberta,Non-Aboriginal,245
-4603065,Morris,77,47,95,82,75,43%,Manitoba,Non-Aboriginal,2855
 4603067,Morris,84,52,95,86,79,46%,Manitoba,Non-Aboriginal,1750
+4603065,Morris,77,47,95,82,75,43%,Manitoba,Non-Aboriginal,2855
 3540050,Morris-Turnberry,85,58,97,91,83,36%,Ontario,Non-Aboriginal,3120
 1003020,Morrisville,,,,,69,25%,Newfoundland and Labrador,Non-Aboriginal,115
 4707034,Mortlach,74,53,66,89,71,49%,Saskatchewan,Non-Aboriginal,290
@@ -1726,7 +1727,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1301016,Musquash,84,56,94,83,79,41%,New Brunswick,Non-Aboriginal,1245
 5915803,Musqueam 2,93,70,89,80,83,33%,British Columbia,First Nation,1610
 4810051,Myrnam,71,47,94,83,74,29%,Alberta,Non-Aboriginal,345
-2493012,M�tabetchouan--Lac-�-la-Croix,82,58,98,84,80,28%,Quebec,Non-Aboriginal,3850
+2485100,N_d_lec,72,41,87,79,70,46%,Quebec,Non-Aboriginal,405
 1310054,Nackawic,85,71,92,82,83,46%,New Brunswick,Non-Aboriginal,1050
 6104010,Nahanni Butte,,,,,63,17%,Northwest Territories,First Nation,85
 4714032,Naicam,87,47,96,84,79,28%,Saskatchewan,Non-Aboriginal,685
@@ -1767,8 +1768,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5931812,Nesuch 3,,,,,65,10%,British Columbia,First Nation,110
 2434007,Neuville,90,68,97,87,85,28%,Quebec,Non-Aboriginal,3885
 1315016,New Bandon,82,48,93,78,75,45%,New Brunswick,Non-Aboriginal,1230
-3529021,New Credit (Part) 40A,69,51,86,82,72,47%,Ontario,First Nation,530
 3528035,New Credit (Part) 40A,,,,,71,36%,Ontario,First Nation,120
+3529021,New Credit (Part) 40A,69,51,86,82,72,47%,Ontario,First Nation,530
 5903032,New Denver,83,61,94,77,79,47%,British Columbia,Non-Aboriginal,460
 1212014,New Glasgow,85,59,92,80,79,19%,Nova Scotia,Non-Aboriginal,9230
 5949024,New Hazelton,78,64,93,76,78,40%,British Columbia,Non-Aboriginal,645
@@ -1803,9 +1804,9 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5933808,Nooaitch 10,,,,,64,2%,British Columbia,First Nation,130
 3528052,Norfolk County,86,56,95,84,80,33%,Ontario,Non-Aboriginal,61365
 4808013,Norglenwold,,,,,81,49%,Alberta,Non-Aboriginal,190
+2487115,Norm_tal,74,41,91,73,70,40%,Quebec,Non-Aboriginal,850
 6102007,Norman Wells,100,65,83,91,85,9%,Northwest Territories,Non-Aboriginal,715
 2492040,Normandin,82,51,96,82,78,18%,Quebec,Non-Aboriginal,3050
-2487115,Norm�tal,74,41,91,73,70,40%,Quebec,Non-Aboriginal,850
 4709072,Norquay,76,39,93,82,72,48%,Saskatchewan,Non-Aboriginal,405
 1006003,Norris Arm,77,37,94,65,68,49%,Newfoundland and Labrador,Non-Aboriginal,935
 4811007,Norris Beach,,,,,90,47%,Alberta,Non-Aboriginal,75
@@ -1873,10 +1874,9 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2485090,Notre-Dame-du-Nord,82,44,92,77,74,36%,Quebec,Non-Aboriginal,1080
 2412080,Notre-Dame-du-Portage,95,70,96,87,87,33%,Quebec,Non-Aboriginal,1190
 2418040,Notre-Dame-du-Rosaire,,,,,68,38%,Quebec,Non-Aboriginal,385
-2433085,Notre-Dame-du-Sacr�-Coeur-d'Issoudun,80,51,96,91,79,31%,Quebec,Non-Aboriginal,915
+2433085,Notre-Dame-du-Sacr_-Coeur-d'Issoudun,80,51,96,91,79,31%,Quebec,Non-Aboriginal,915
 2406020,Nouvelle,82,47,96,78,76,45%,Quebec,Non-Aboriginal,1680
 5933853,Nuuautin 2,,,,,59,2%,British Columbia,First Nation,130
-2485100,N�d�lec,72,41,87,79,70,46%,Quebec,Non-Aboriginal,405
 4809806,O'Chiese 203,40,9,46,59,39,24%,Alberta,First Nation,750
 3558016,O'Connor,89,63,89,89,83,49%,Ontario,Non-Aboriginal,675
 1103042,O'Leary,72,49,95,84,75,44%,Prince Edward Island,Non-Aboriginal,750
@@ -1928,12 +1928,13 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3515005,Otonabee-South Monaghan,91,60,96,88,84,38%,Ontario,Non-Aboriginal,6590
 3506008,Ottawa,97,74,95,88,88,22%,Ontario,Non-Aboriginal,867085
 2457030,Otterburn Park,91,70,98,90,87,21%,Quebec,Non-Aboriginal,8445
-2499818,Ouj�-Bougoumou,73,47,67,84,68,34%,Quebec,First Nation,715
+2499818,Ouj_-Bougoumou,73,47,67,84,68,34%,Quebec,First Nation,715
 4711027,Outlook,86,62,96,93,84,34%,Saskatchewan,Non-Aboriginal,2090
 3542059,Owen Sound,86,58,95,84,81,21%,Ontario,Non-Aboriginal,20700
 4622050,Oxford House 24,36,21,40,64,40,12%,Manitoba,First Nation,1870
 4804014,Oyen,89,61,97,95,85,48%,Alberta,Non-Aboriginal,890
 5919816,Oyster Bay 12,,,,,66,23%,British Columbia,First Nation,90
+2492010,P_ribonka,84,49,98,78,77,37%,Quebec,Non-Aboriginal,460
 1315010,Pabineau 11,,,,,66,20%,New Brunswick,First Nation,170
 2413015,Packington,74,32,95,74,69,20%,Quebec,Non-Aboriginal,595
 4715098,Paddockwood,,,,,66,32%,Saskatchewan,Non-Aboriginal,65
@@ -1974,8 +1975,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4619059,Peguis 1B,44,34,69,63,52,16%,Manitoba,First Nation,2585
 3537001,Pelee,,,,,83,19%,Ontario,Non-Aboriginal,120
 3526028,Pelham,97,69,98,88,88,29%,Ontario,Non-Aboriginal,16230
-4812013,Pelican Narrows,,,,,91,21%,Alberta,Non-Aboriginal,90
 4718055,Pelican Narrows,45,31,45,60,45,31%,Saskatchewan,Non-Aboriginal,905
+4812013,Pelican Narrows,,,,,91,21%,Alberta,Non-Aboriginal,90
 4718820,Pelican Narrows 184B,36,28,36,56,39,20%,Saskatchewan,First Nation,1900
 6001041,Pelly Crossing,78,32,74,66,62,39%,Yukon,First Nation,335
 3547064,Pembroke,85,57,94,85,80,28%,Ontario,Non-Aboriginal,13500
@@ -1985,7 +1986,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4706023,Pense,88,61,92,92,83,46%,Saskatchewan,Non-Aboriginal,575
 5907041,Penticton,84,60,96,85,81,28%,British Columbia,Non-Aboriginal,31720
 5907803,Penticton 1,75,54,87,71,72,30%,British Columbia,First Nation,1670
-2402005,Perc�,76,38,91,74,70,43%,Quebec,Non-Aboriginal,3310
+2402005,Perc_,76,38,91,74,70,43%,Quebec,Non-Aboriginal,3310
 4712050,Perdue No. 346,74,69,95,81,80,35%,Saskatchewan,Non-Aboriginal,355
 1312004,Perth,73,47,93,81,73,39%,New Brunswick,Non-Aboriginal,1160
 3509021,Perth,88,62,96,85,83,42%,Ontario,Non-Aboriginal,5805
@@ -1999,7 +2000,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2494205,Petit-Saguenay,73,33,98,81,71,29%,Quebec,Non-Aboriginal,715
 1307029,Petitcodiac,78,51,96,88,78,42%,New Brunswick,Non-Aboriginal,1415
 2416005,Petite-Rivi�re-Saint-Fran�ois,86,55,98,84,81,28%,Quebec,Non-Aboriginal,745
-2403015,Petite-Vall�e,,,,,74,13%,Quebec,Non-Aboriginal,175
+2403015,Petite-Vall_e,,,,,74,13%,Quebec,Non-Aboriginal,175
 3538019,Petrolia,86,59,97,84,82,21%,Ontario,Non-Aboriginal,5195
 4706809,Piapot 75,50,31,79,62,55,21%,Saskatchewan,First Nation,465
 3558060,Pic Mobert North,,,,,58,45%,Ontario,First Nation,195
@@ -2031,11 +2032,11 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2480045,Plaisance,81,49,96,86,78,43%,Quebec,Non-Aboriginal,1080
 1312009,Plaster Rock,77,51,95,78,75,40%,New Brunswick,Non-Aboriginal,1105
 4714035,Pleasantdale No. 398,93,46,89,94,81,46%,Saskatchewan,Non-Aboriginal,630
-2432040,Plessisville,80,47,97,87,78,17%,Quebec,Non-Aboriginal,6345
 2432045,Plessisville,80,55,95,91,80,36%,Quebec,Non-Aboriginal,2650
+2432040,Plessisville,80,47,97,87,78,17%,Quebec,Non-Aboriginal,6345
 3557019,Plummer Additional,90,65,94,80,82,43%,Ontario,Non-Aboriginal,650
 3538035,Plympton-Wyoming,93,65,97,84,85,25%,Ontario,Non-Aboriginal,7480
-2413095,Poh�n�gamook,78,51,95,84,77,34%,Quebec,Non-Aboriginal,2695
+2413095,Poh_n_gamook,78,51,95,84,77,34%,Quebec,Non-Aboriginal,2695
 3538031,Point Edward,94,61,95,85,84,34%,Ontario,Non-Aboriginal,2035
 1002014,Point May,53,23,68,59,51,45%,Newfoundland and Labrador,Non-Aboriginal,255
 1008047,Point of Bay,,,,,63,34%,Newfoundland and Labrador,Non-Aboriginal,160
@@ -2089,6 +2090,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5927018,Powell River D,79,55,82,80,74,39%,British Columbia,Non-Aboriginal,965
 5927020,Powell River E,94,75,82,79,83,44%,British Columbia,Non-Aboriginal,425
 4601075,Powerview-Pine Falls,84,53,93,91,80,48%,Manitoba,Non-Aboriginal,1295
+2475040,Pr_vost,89,66,97,88,85,17%,Quebec,Non-Aboriginal,12060
 4710052,Prairie Rose No. 309,100,53,93,92,85,41%,Saskatchewan,Non-Aboriginal,290
 4713019,Prairiedale No. 321,,,,,83,48%,Saskatchewan,Non-Aboriginal,175
 4709064,Preeceville,82,41,89,88,75,42%,Saskatchewan,Non-Aboriginal,1020
@@ -2104,16 +2106,15 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5907024,Princeton,88,48,96,79,78,49%,British Columbia,Non-Aboriginal,2660
 2432033,Princeville,77,48,95,84,76,31%,Quebec,Non-Aboriginal,5585
 5959810,Prophet River 4,,,,,64,11%,British Columbia,First Nation,130
-2475040,Pr�vost,89,66,97,88,85,17%,Quebec,Non-Aboriginal,12060
 4623064,Pukatawagan 198,44,23,48,63,44,13%,Manitoba,First Nation,1860
 4710029,Punnichy,,,,,66,12%,Saskatchewan,Non-Aboriginal,245
 4812804,Puskiakiwenin 122,58,44,47,76,56,7%,Alberta,First Nation,485
 3523001,Puslinch,100,67,96,89,88,33%,Ontario,Non-Aboriginal,6935
 2499120,Puvirnituq,75,29,45,81,58,7%,Quebec,Inuit,1680
-2492010,P�ribonka,84,49,98,78,77,37%,Quebec,Non-Aboriginal,460
 5909875,Q'alatk�7em,,,,,49,11%,British Columbia,First Nation,80
 6204010,Qikiqtarjuaq,79,30,72,74,64,28%,Nunavut,Inuit,520
 4706036,Qu'Appelle,81,55,91,86,78,39%,Saskatchewan,Non-Aboriginal,670
+2423027,Qu_bec,90,66,97,88,85,22%,Quebec,Non-Aboriginal,502595
 5939805,Quaaout 1,,,,,72,34%,British Columbia,First Nation,230
 5943813,Quaee 7,,,,,68,18%,British Columbia,First Nation,90
 5921806,Qualicum,,,,,74,24%,British Columbia,First Nation,80
@@ -2129,7 +2130,6 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3512015,Quinte West,86,57,96,84,81,31%,Ontario,Non-Aboriginal,42555
 4710028,Quinton,,,,,69,17%,Saskatchewan,Non-Aboriginal,110
 1305057,Quispamsis,94,71,98,87,87,18%,New Brunswick,Non-Aboriginal,17650
-2423027,Qu�bec,90,66,97,88,85,22%,Quebec,Non-Aboriginal,502595
 2442032,Racine,87,59,96,85,82,32%,Quebec,Non-Aboriginal,1245
 4716009,Radisson,80,53,89,90,78,45%,Saskatchewan,Non-Aboriginal,505
 4702031,Radville,90,59,93,94,84,44%,Saskatchewan,Non-Aboriginal,835
@@ -2174,12 +2174,12 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1308017,Rexton,90,59,97,79,81,40%,New Brunswick,Non-Aboriginal,780
 4709009,Rhein,,,,,75,0%,Saskatchewan,Non-Aboriginal,70
 2455057,Richelieu,88,58,98,90,83,29%,Quebec,Non-Aboriginal,5125
-1308016,Richibucto,77,41,96,78,73,34%,New Brunswick,Non-Aboriginal,1970
 1308018,Richibucto,78,42,90,79,72,31%,New Brunswick,Non-Aboriginal,1245
+1308016,Richibucto,77,41,96,78,73,34%,New Brunswick,Non-Aboriginal,1970
 1308015,Richibucto 15,52,46,77,59,59,4%,New Brunswick,First Nation,1990
-2442098,Richmond,79,51,95,88,78,32%,Quebec,Non-Aboriginal,3155
-1311001,Richmond,79,55,91,84,77,40%,New Brunswick,Non-Aboriginal,1360
 5915015,Richmond,85,71,92,84,83,21%,British Columbia,Non-Aboriginal,189305
+1311001,Richmond,79,55,91,84,77,40%,New Brunswick,Non-Aboriginal,1360
+2442098,Richmond,79,51,95,88,78,32%,Quebec,Non-Aboriginal,3155
 3519038,Richmond Hill,92,75,96,87,88,22%,Ontario,Non-Aboriginal,184370
 1216006,Richmond Subd. A,85,56,93,81,79,48%,Nova Scotia,Non-Aboriginal,3855
 1216001,Richmond Subd. C,82,50,93,81,76,41%,Nova Scotia,Non-Aboriginal,3290
@@ -2200,7 +2200,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 1306020,Riverview,87,66,97,89,85,21%,New Brunswick,Non-Aboriginal,18950
 2471005,Rivi�re-Beaudette,86,51,97,88,81,46%,Quebec,Non-Aboriginal,1865
 2413025,Rivi�re-Bleue,79,41,93,76,72,20%,Quebec,Non-Aboriginal,1260
-2489010,Rivi�re-H�va,91,41,94,84,77,40%,Quebec,Non-Aboriginal,1610
+2489010,Rivi�re-H_va,91,41,94,84,77,40%,Quebec,Non-Aboriginal,1610
 2487904,Rivi�re-Ojima,,,,,70,46%,Quebec,Non-Aboriginal,105
 2414065,Rivi�re-Ouelle,79,56,93,83,78,30%,Quebec,Non-Aboriginal,950
 2479037,Rivi�re-Rouge,80,48,94,77,75,43%,Quebec,Non-Aboriginal,4360
@@ -2213,7 +2213,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2491025,Roberval,85,56,96,82,80,29%,Quebec,Non-Aboriginal,9725
 4604051,Roblin,76,50,96,90,78,44%,Manitoba,Non-Aboriginal,685
 4705038,Rocanville,95,64,93,83,84,40%,Saskatchewan,Non-Aboriginal,855
-4701019,Roche Perc�e,,,,,90,41%,Saskatchewan,Non-Aboriginal,75
+4701019,Roche Perc_e,,,,,90,41%,Saskatchewan,Non-Aboriginal,75
 4703009,Rockglen,87,64,81,76,77,36%,Saskatchewan,Non-Aboriginal,380
 4614036,Rockwood,91,60,95,94,85,34%,Manitoba,Non-Aboriginal,7005
 3558069,Rocky Bay 1,,,,,63,29%,Ontario,First Nation,185
@@ -2249,16 +2249,16 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4711026,Rudy No. 284,77,58,88,97,80,45%,Saskatchewan,Non-Aboriginal,495
 1002033,Rushoon,99,50,95,74,80,29%,Newfoundland and Labrador,Non-Aboriginal,290
 4616024,Russell,88,52,88,91,80,33%,Manitoba,Non-Aboriginal,490
-4616032,Russell,89,49,95,90,81,34%,Manitoba,Non-Aboriginal,1585
 3502048,Russell,94,66,97,92,87,22%,Ontario,Non-Aboriginal,15050
+4616032,Russell,89,49,95,90,81,34%,Manitoba,Non-Aboriginal,1585
 4819056,Rycroft,89,46,91,81,77,49%,Alberta,Non-Aboriginal,620
 4810019,Ryley,93,47,86,90,79,40%,Alberta,Non-Aboriginal,500
 5917021,Saanich,93,72,96,88,87,21%,British Columbia,Non-Aboriginal,107860
 3560063,Sabaskong Bay 35D,58,46,61,81,61,8%,Ontario,First Nation,385
 6101041,Sachs Harbour,,,,,71,3%,Northwest Territories,Inuit,110
 1307009,Sackville,86,64,96,87,83,33%,New Brunswick,Non-Aboriginal,5385
-2495010,Sacr�-Coeur,79,46,96,82,76,42%,Quebec,Non-Aboriginal,1835
-2431130,Sacr�-Coeur-de-J�sus,77,62,95,96,83,34%,Quebec,Non-Aboriginal,575
+2495010,Sacr_-Coeur,79,46,96,82,76,42%,Quebec,Non-Aboriginal,1835
+2431130,Sacr_-Coeur-de-J_sus,77,62,95,96,83,34%,Quebec,Non-Aboriginal,575
 3557071,Sagamok,58,42,75,62,60,14%,Ontario,First Nation,1030
 2494068,Saguenay,87,61,96,85,82,20%,Quebec,Non-Aboriginal,141335
 5933884,Sahhaltkum 4,62,57,93,71,71,23%,British Columbia,First Nation,325
@@ -2277,16 +2277,16 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2440010,Saint-Adrien,70,57,87,92,77,48%,Quebec,Non-Aboriginal,490
 2431095,Saint-Adrien-d'Irlande,81,58,97,90,81,29%,Quebec,Non-Aboriginal,390
 2433045,Saint-Agapit,83,54,92,91,80,46%,Quebec,Non-Aboriginal,3470
-2453015,Saint-Aim�,,,,,81,33%,Quebec,Non-Aboriginal,505
-2415030,Saint-Aim�-des-Lacs,82,52,98,85,80,33%,Quebec,Non-Aboriginal,1115
-2479022,Saint-Aim�-du-Lac-des-�les,85,46,94,81,77,41%,Quebec,Non-Aboriginal,695
+2453015,Saint-Aim_,,,,,81,33%,Quebec,Non-Aboriginal,505
+2415030,Saint-Aim_-des-Lacs,82,52,98,85,80,33%,Quebec,Non-Aboriginal,1115
+2479022,Saint-Aim_-du-Lac-des-�les,85,46,94,81,77,41%,Quebec,Non-Aboriginal,695
 2434097,Saint-Alban,76,46,93,80,74,46%,Quebec,Non-Aboriginal,1200
 2439085,Saint-Albert,77,49,96,84,77,36%,Quebec,Non-Aboriginal,1635
 2456055,Saint-Alexandre,79,55,94,92,80,36%,Quebec,Non-Aboriginal,2660
 2414035,Saint-Alexandre-de-Kamouraska,79,52,97,88,79,41%,Quebec,Non-Aboriginal,1935
 2463025,Saint-Alexis,78,56,94,92,80,40%,Quebec,Non-Aboriginal,785
 2463020,Saint-Alexis,82,47,92,90,77,30%,Quebec,Non-Aboriginal,575
-2406050,Saint-Alexis-de-Matap�dia,74,42,90,78,71,25%,Quebec,Non-Aboriginal,520
+2406050,Saint-Alexis-de-Matap_dia,74,42,90,78,71,25%,Quebec,Non-Aboriginal,520
 2451065,Saint-Alexis-des-Monts,75,42,97,76,72,37%,Quebec,Non-Aboriginal,3020
 2427015,Saint-Alfred,78,47,92,90,77,42%,Quebec,Non-Aboriginal,485
 2405065,Saint-Alphonse,80,50,94,79,76,43%,Quebec,Non-Aboriginal,690
@@ -2296,10 +2296,10 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2494255,Saint-Ambroise,82,48,98,83,78,26%,Quebec,Non-Aboriginal,3515
 2461040,Saint-Ambroise-de-Kildare,84,56,96,87,81,24%,Quebec,Non-Aboriginal,3720
 2410030,Saint-Anaclet-de-Lessard,83,58,96,86,81,37%,Quebec,Non-Aboriginal,2960
-2480027,Saint-Andr�-Avellin,80,47,92,81,75,47%,Quebec,Non-Aboriginal,3590
-2476008,Saint-Andr�-d'Argenteuil,82,55,96,84,79,29%,Quebec,Non-Aboriginal,3125
-2406040,Saint-Andr�-de-Restigouche,,,,,55,32%,Quebec,Non-Aboriginal,155
-2491010,Saint-Andr�-du-Lac-Saint-Jean,,,,,72,21%,Quebec,Non-Aboriginal,460
+2480027,Saint-Andr_-Avellin,80,47,92,81,75,47%,Quebec,Non-Aboriginal,3590
+2476008,Saint-Andr_-d'Argenteuil,82,55,96,84,79,29%,Quebec,Non-Aboriginal,3125
+2406040,Saint-Andr_-de-Restigouche,,,,,55,32%,Quebec,Non-Aboriginal,155
+2491010,Saint-Andr_-du-Lac-Saint-Jean,,,,,72,21%,Quebec,Non-Aboriginal,460
 2469070,Saint-Anicet,78,53,94,74,75,48%,Quebec,Non-Aboriginal,2630
 2419062,Saint-Anselme,84,54,97,91,82,32%,Quebec,Non-Aboriginal,3315
 1308007,Saint-Antoine,84,48,96,85,78,38%,New Brunswick,Non-Aboriginal,1665
@@ -2311,13 +2311,13 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2446017,Saint-Armand,85,62,91,89,82,38%,Quebec,Non-Aboriginal,1230
 2412065,Saint-Ars�ne,79,59,93,91,81,48%,Quebec,Non-Aboriginal,1275
 2417055,Saint-Aubert,79,41,93,84,74,32%,Quebec,Non-Aboriginal,1400
-2492005,Saint-Augustin,,,,,74,49%,Quebec,Non-Aboriginal,395
 2498012,Saint-Augustin,,,,,76,30%,Quebec,Non-Aboriginal,130
+2492005,Saint-Augustin,,,,,74,49%,Quebec,Non-Aboriginal,395
 2423072,Saint-Augustin-de-Desmaures,98,76,98,91,91,16%,Quebec,Non-Aboriginal,17590
 2430005,Saint-Augustin-de-Woburn,77,38,91,87,73,48%,Quebec,Non-Aboriginal,695
-2451025,Saint-Barnab�,79,52,95,83,77,34%,Quebec,Non-Aboriginal,1175
-2454105,Saint-Barnab�-Sud,82,40,91,86,75,30%,Quebec,Non-Aboriginal,855
-2452055,Saint-Barth�lemy,77,45,98,80,75,41%,Quebec,Non-Aboriginal,1925
+2451025,Saint-Barnab_,79,52,95,83,77,34%,Quebec,Non-Aboriginal,1175
+2454105,Saint-Barnab_-Sud,82,40,91,86,75,30%,Quebec,Non-Aboriginal,855
+2452055,Saint-Barth_lemy,77,45,98,80,75,41%,Quebec,Non-Aboriginal,1925
 1313018,Saint-Basile,83,56,95,88,80,43%,New Brunswick,Non-Aboriginal,715
 2434038,Saint-Basile,86,54,98,89,82,43%,Quebec,Non-Aboriginal,2435
 2457020,Saint-Basile-le-Grand,92,68,97,91,87,18%,Quebec,Non-Aboriginal,16635
@@ -2332,35 +2332,35 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2485045,Saint-Bruno-de-Guigues,85,60,93,91,82,35%,Quebec,Non-Aboriginal,1075
 2414010,Saint-Bruno-de-Kamouraska,80,49,98,86,78,31%,Quebec,Non-Aboriginal,510
 2458037,Saint-Bruno-de-Montarville,100,75,96,89,90,12%,Quebec,Non-Aboriginal,25685
+2450030,Saint-C_lestin,,,,,78,37%,Quebec,Non-Aboriginal,725
+2455023,Saint-C_saire,82,49,95,89,79,18%,Quebec,Non-Aboriginal,5590
 2463055,Saint-Calixte,74,42,95,77,72,32%,Quebec,Non-Aboriginal,5925
 2440025,Saint-Camille,74,59,90,92,79,37%,Quebec,Non-Aboriginal,510
 2428070,Saint-Camille-de-Lellis,76,37,97,80,72,20%,Quebec,Non-Aboriginal,815
 2434078,Saint-Casimir,83,51,89,88,78,48%,Quebec,Non-Aboriginal,1345
 1308019,Saint-Charles,80,48,96,82,76,49%,New Brunswick,Non-Aboriginal,2060
-2461035,Saint-Charles-Borrom�e,87,57,99,86,82,19%,Quebec,Non-Aboriginal,12565
+2461035,Saint-Charles-Borrom_e,87,57,99,86,82,19%,Quebec,Non-Aboriginal,12565
 2419097,Saint-Charles-de-Bellechasse,84,59,98,89,82,38%,Quebec,Non-Aboriginal,2230
 2494260,Saint-Charles-de-Bourget,87,54,96,88,81,49%,Quebec,Non-Aboriginal,690
 2457057,Saint-Charles-sur-Richelieu,90,50,99,90,82,31%,Quebec,Non-Aboriginal,1645
 2439060,Saint-Christophe-d'Arthabaska,84,54,98,90,82,29%,Quebec,Non-Aboriginal,2860
 2469017,Saint-Chrysostome,79,44,95,86,76,47%,Quebec,Non-Aboriginal,2505
+2411005,Saint-Cl_ment,76,47,94,85,75,33%,Quebec,Non-Aboriginal,490
+2452075,Saint-Cl_ophas-de-Brandon,72,58,96,89,79,45%,Quebec,Non-Aboriginal,265
 2442100,Saint-Claude,82,52,94,85,78,33%,Quebec,Non-Aboriginal,1105
 2471045,Saint-Clet,83,51,95,87,79,25%,Quebec,Non-Aboriginal,1835
-2411005,Saint-Cl�ment,76,47,94,85,75,33%,Quebec,Non-Aboriginal,490
-2452075,Saint-Cl�ophas-de-Brandon,72,58,96,89,79,45%,Quebec,Non-Aboriginal,265
 2475005,Saint-Colomban,85,60,96,88,82,15%,Quebec,Non-Aboriginal,13065
 2467035,Saint-Constant,87,60,98,89,84,24%,Quebec,Non-Aboriginal,24840
 2452062,Saint-Cuthbert,83,52,93,90,79,48%,Quebec,Non-Aboriginal,1880
-2412005,Saint-Cyprien,80,50,96,86,78,22%,Quebec,Non-Aboriginal,1035
 2428040,Saint-Cyprien,75,32,83,79,67,47%,Quebec,Non-Aboriginal,550
+2412005,Saint-Cyprien,80,50,96,86,78,22%,Quebec,Non-Aboriginal,1035
 2468035,Saint-Cyprien-de-Napierville,85,58,96,91,83,48%,Quebec,Non-Aboriginal,1880
 2417045,Saint-Cyrille-de-Lessard,78,43,97,86,76,30%,Quebec,Non-Aboriginal,750
 2449070,Saint-Cyrille-de-Wendover,78,55,96,89,80,30%,Quebec,Non-Aboriginal,4330
-2450030,Saint-C�lestin,,,,,78,37%,Quebec,Non-Aboriginal,725
 2462065,Saint-C�me,78,44,94,83,75,37%,Quebec,Non-Aboriginal,2155
 2429057,Saint-C�me--Lini�re,77,44,96,85,76,38%,Quebec,Non-Aboriginal,3220
-2455023,Saint-C�saire,82,49,95,89,79,18%,Quebec,Non-Aboriginal,5590
-2454017,Saint-Damase,85,50,98,94,82,28%,Quebec,Non-Aboriginal,2475
 2407105,Saint-Damase,70,51,94,68,71,36%,Quebec,Non-Aboriginal,480
+2454017,Saint-Damase,85,50,98,94,82,28%,Quebec,Non-Aboriginal,2475
 2417040,Saint-Damase-de-L'Islet,80,51,88,88,77,37%,Quebec,Non-Aboriginal,615
 2419030,Saint-Damien-de-Buckland,82,47,99,85,78,46%,Quebec,Non-Aboriginal,1730
 2453005,Saint-David,76,42,96,84,74,40%,Quebec,Non-Aboriginal,830
@@ -2374,20 +2374,23 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2462060,Saint-Donat,89,58,98,76,80,30%,Quebec,Non-Aboriginal,4035
 2449100,Saint-Edmond-de-Grantham,75,45,91,86,74,30%,Quebec,Non-Aboriginal,670
 2492050,Saint-Edmond-les-Plaines,82,36,90,70,69,37%,Quebec,Non-Aboriginal,390
-2426022,Saint-Elz�ar,83,56,93,93,81,46%,Quebec,Non-Aboriginal,2135
-2405050,Saint-Elz�ar,,,,,70,28%,Quebec,Non-Aboriginal,460
-2413085,Saint-Elz�ar-de-T�miscouata,66,34,88,77,66,34%,Quebec,Non-Aboriginal,345
+2426022,Saint-Elz_ar,83,56,93,93,81,46%,Quebec,Non-Aboriginal,2135
+2405050,Saint-Elz_ar,,,,,70,28%,Quebec,Non-Aboriginal,460
+2413085,Saint-Elz_ar-de-T_miscouata,66,34,88,77,66,34%,Quebec,Non-Aboriginal,345
 2449105,Saint-Eug�ne,79,49,90,81,75,48%,Quebec,Non-Aboriginal,1130
 2492065,Saint-Eug�ne-d'Argentenay,77,46,97,71,73,13%,Quebec,Non-Aboriginal,520
 2485085,Saint-Eug�ne-de-Guigues,76,52,98,88,79,50%,Quebec,Non-Aboriginal,540
 2410075,Saint-Eug�ne-de-Ladri�re,,,,,68,42%,Quebec,Non-Aboriginal,355
 2472005,Saint-Eustache,87,57,98,88,82,14%,Quebec,Non-Aboriginal,43545
 2413030,Saint-Eus�be,71,40,90,80,70,10%,Quebec,Non-Aboriginal,595
+2491042,Saint-F_licien,84,56,96,83,80,29%,Quebec,Non-Aboriginal,10010
+2449005,Saint-F_lix-de-Kingsey,75,44,93,85,74,47%,Quebec,Non-Aboriginal,1610
+2462007,Saint-F_lix-de-Valois,81,52,95,85,78,22%,Quebec,Non-Aboriginal,5935
 2410070,Saint-Fabien,82,56,97,87,81,38%,Quebec,Non-Aboriginal,1865
 2418015,Saint-Fabien-de-Panet,74,30,91,79,69,38%,Quebec,Non-Aboriginal,920
-2478047,Saint-Faustin--Lac-Carr�,85,57,95,87,81,41%,Quebec,Non-Aboriginal,3455
+2478047,Saint-Faustin--Lac-Carr_,85,57,95,87,81,41%,Quebec,Non-Aboriginal,3455
 2432013,Saint-Ferdinand,83,53,97,80,78,32%,Quebec,Non-Aboriginal,1985
-2421010,Saint-Ferr�ol-les-Neiges,91,64,98,88,85,42%,Quebec,Non-Aboriginal,2965
+2421010,Saint-Ferr_ol-les-Neiges,91,64,98,88,85,42%,Quebec,Non-Aboriginal,2965
 2433052,Saint-Flavien,76,47,93,93,77,22%,Quebec,Non-Aboriginal,1480
 2431030,Saint-Fortunat,71,42,89,83,71,28%,Quebec,Non-Aboriginal,280
 1313042,Saint-Fran�ois de Madawaska,79,38,98,87,75,38%,New Brunswick,Non-Aboriginal,525
@@ -2398,9 +2401,9 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2418060,Saint-Fran�ois-de-la-Rivi�re-du-Sud,77,47,93,89,77,31%,Quebec,Non-Aboriginal,1585
 2450128,Saint-Fran�ois-du-Lac,77,42,93,76,72,47%,Quebec,Non-Aboriginal,1935
 2494235,Saint-Fulgence,81,54,97,83,79,39%,Quebec,Non-Aboriginal,1945
-2491042,Saint-F�licien,84,56,96,83,80,29%,Quebec,Non-Aboriginal,10010
-2449005,Saint-F�lix-de-Kingsey,75,44,93,85,74,47%,Quebec,Non-Aboriginal,1610
-2462007,Saint-F�lix-de-Valois,81,52,95,85,78,22%,Quebec,Non-Aboriginal,5935
+2493035,Saint-G_d_on,89,61,97,89,84,47%,Quebec,Non-Aboriginal,1895
+2429013,Saint-G_d_on-de-Beauce,77,40,97,86,75,32%,Quebec,Non-Aboriginal,2245
+2453085,Saint-G_rard-Majella,63,55,74,82,69,36%,Quebec,Non-Aboriginal,275
 2414075,Saint-Gabriel-Lalemant,74,37,98,74,71,32%,Quebec,Non-Aboriginal,835
 2452085,Saint-Gabriel-de-Brandon,79,53,95,80,77,49%,Quebec,Non-Aboriginal,2650
 2409025,Saint-Gabriel-de-Rimouski,78,43,88,82,73,45%,Quebec,Non-Aboriginal,1130
@@ -2413,25 +2416,23 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2433035,Saint-Gilles,84,50,96,91,80,48%,Quebec,Non-Aboriginal,2050
 2449113,Saint-Guillaume,73,49,90,84,74,28%,Quebec,Non-Aboriginal,1525
 2462912,Saint-Guillaume-Nord,,,,,71,45%,Quebec,Non-Aboriginal,115
-2493035,Saint-G�d�on,89,61,97,89,84,47%,Quebec,Non-Aboriginal,1895
-2429013,Saint-G�d�on-de-Beauce,77,40,97,86,75,32%,Quebec,Non-Aboriginal,2245
-2453085,Saint-G�rard-Majella,63,55,74,82,69,36%,Quebec,Non-Aboriginal,275
 2419068,Saint-Henri,84,58,98,93,83,19%,Quebec,Non-Aboriginal,4985
 2493070,Saint-Henri-de-Taillon,,,,,80,41%,Quebec,Non-Aboriginal,810
 1313032,Saint-Hilaire,,,,,87,16%,New Brunswick,Non-Aboriginal,255
 2416050,Saint-Hilarion,79,39,97,85,75,34%,Quebec,Non-Aboriginal,1170
 2475045,Saint-Hippolyte,87,59,96,85,82,29%,Quebec,Non-Aboriginal,8065
-2494240,Saint-Honor�,80,55,97,83,79,26%,Quebec,Non-Aboriginal,5205
-2429038,Saint-Honor�-de-Shenley,74,46,92,92,76,29%,Quebec,Non-Aboriginal,1570
-2413090,Saint-Honor�-de-T�miscouata,72,32,94,77,69,29%,Quebec,Non-Aboriginal,760
+2494240,Saint-Honor_,80,55,97,83,79,26%,Quebec,Non-Aboriginal,5205
+2429038,Saint-Honor_-de-Shenley,74,46,92,92,76,29%,Quebec,Non-Aboriginal,1570
+2413090,Saint-Honor_-de-T_miscouata,72,32,94,77,69,29%,Quebec,Non-Aboriginal,760
 2412010,Saint-Hubert-de-Rivi�re-du-Loup,80,43,95,82,75,22%,Quebec,Non-Aboriginal,1205
 2454100,Saint-Hugues,77,47,96,94,78,43%,Quebec,Non-Aboriginal,1290
 2454048,Saint-Hyacinthe,85,54,97,87,81,21%,Quebec,Non-Aboriginal,50995
 2452045,Saint-Ignace-de-Loyola,85,53,99,86,81,36%,Quebec,Non-Aboriginal,2135
 2446095,Saint-Ignace-de-Stanbridge,78,49,95,89,78,38%,Quebec,Non-Aboriginal,695
-2415005,Saint-Ir�n�e,80,53,98,79,78,16%,Quebec,Non-Aboriginal,665
+2415005,Saint-Ir_n_e,80,53,98,79,78,16%,Quebec,Non-Aboriginal,665
 2426063,Saint-Isidore,83,57,95,89,81,37%,Quebec,Non-Aboriginal,2900
 2441012,Saint-Isidore-de-Clifton,72,46,96,84,74,40%,Quebec,Non-Aboriginal,715
+2475017,Saint-J_r�me,82,52,96,85,79,17%,Quebec,Non-Aboriginal,66505
 2463013,Saint-Jacques,81,51,95,87,79,33%,Quebec,Non-Aboriginal,3905
 1313024,Saint-Jacques,84,49,96,80,77,34%,New Brunswick,Non-Aboriginal,1470
 2431140,Saint-Jacques-de-Leeds,79,49,97,90,79,30%,Quebec,Non-Aboriginal,700
@@ -2460,33 +2461,33 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2418005,Saint-Just-de-Breteni�res,68,31,96,72,67,32%,Quebec,Non-Aboriginal,650
 2413040,Saint-Juste-du-Lac,74,36,95,75,70,37%,Quebec,Non-Aboriginal,620
 2451045,Saint-Justin,76,43,91,86,74,41%,Quebec,Non-Aboriginal,1085
-2475017,Saint-J�r�me,82,52,96,85,79,17%,Quebec,Non-Aboriginal,66505
+2408065,Saint-L_andre,75,54,95,72,74,39%,Quebec,Non-Aboriginal,400
+1315017,Saint-L_olin,71,36,93,67,67,34%,New Brunswick,Non-Aboriginal,485
+2419020,Saint-L_on-de-Standon,78,39,95,82,73,25%,Quebec,Non-Aboriginal,1190
+2451035,Saint-L_on-le-Grand,76,58,95,89,80,38%,Quebec,Non-Aboriginal,965
+2450042,Saint-L_onard-d'Aston,82,56,96,83,79,45%,Quebec,Non-Aboriginal,2235
+2434115,Saint-L_onard-de-Portneuf,81,52,96,84,78,33%,Quebec,Non-Aboriginal,1005
 2458012,Saint-Lambert,100,80,96,88,91,19%,Quebec,Non-Aboriginal,20750
 2487120,Saint-Lambert,,,,,69,41%,Quebec,Non-Aboriginal,210
 2426070,Saint-Lambert-de-Lauzon,86,63,96,92,84,30%,Quebec,Non-Aboriginal,6150
-2420020,Saint-Laurent-de-l'�le-d'Orl�ans,97,73,97,83,87,47%,Quebec,Non-Aboriginal,1560
+2420020,Saint-Laurent-de-l'�le-d'Orl_ans,97,73,97,83,87,47%,Quebec,Non-Aboriginal,1560
 2471105,Saint-Lazare,94,71,98,90,88,17%,Quebec,Non-Aboriginal,19295
 2419050,Saint-Lazare-de-Bellechasse,80,46,95,91,78,44%,Quebec,Non-Aboriginal,1190
 2454072,Saint-Liboire,79,48,92,93,78,28%,Quebec,Non-Aboriginal,3025
 2463065,Saint-Liguori,85,58,95,87,81,37%,Quebec,Non-Aboriginal,1945
 2463048,Saint-Lin--Laurentides,77,46,95,84,76,29%,Quebec,Non-Aboriginal,17250
-1308021,Saint-Louis,81,37,92,73,70,44%,New Brunswick,Non-Aboriginal,1585
 2454120,Saint-Louis,80,48,98,84,78,22%,Quebec,Non-Aboriginal,755
+1308021,Saint-Louis,81,37,92,73,70,44%,New Brunswick,Non-Aboriginal,1585
 1308022,Saint-Louis de Kent,74,36,96,81,72,45%,New Brunswick,Non-Aboriginal,780
 2439170,Saint-Louis-de-Blandford,79,38,91,90,74,49%,Quebec,Non-Aboriginal,900
-2428035,Saint-Louis-de-Gonzague,76,42,85,78,70,25%,Quebec,Non-Aboriginal,425
 2470035,Saint-Louis-de-Gonzague,84,56,96,88,81,50%,Quebec,Non-Aboriginal,1305
+2428035,Saint-Louis-de-Gonzague,76,42,85,78,70,25%,Quebec,Non-Aboriginal,425
 2413080,Saint-Louis-du-Ha! Ha!,78,54,93,82,77,28%,Quebec,Non-Aboriginal,1255
 2428060,Saint-Luc-de-Bellechasse,75,41,94,80,73,24%,Quebec,Non-Aboriginal,475
 2437225,Saint-Luc-de-Vincennes,86,55,98,86,81,37%,Quebec,Non-Aboriginal,580
 2430072,Saint-Ludger,77,40,95,84,74,47%,Quebec,Non-Aboriginal,1160
 2493080,Saint-Ludger-de-Milot,79,37,95,78,72,28%,Quebec,Non-Aboriginal,680
-2408065,Saint-L�andre,75,54,95,72,74,39%,Quebec,Non-Aboriginal,400
-1315017,Saint-L�olin,71,36,93,67,67,34%,New Brunswick,Non-Aboriginal,485
-2419020,Saint-L�on-de-Standon,78,39,95,82,73,25%,Quebec,Non-Aboriginal,1190
-2451035,Saint-L�on-le-Grand,76,58,95,89,80,38%,Quebec,Non-Aboriginal,965
-2450042,Saint-L�onard-d'Aston,82,56,96,83,79,45%,Quebec,Non-Aboriginal,2235
-2434115,Saint-L�onard-de-Portneuf,81,52,96,84,78,33%,Quebec,Non-Aboriginal,1005
+2411025,Saint-M_dard,76,37,95,76,71,40%,Quebec,Non-Aboriginal,270
 2428075,Saint-Magloire,73,44,92,84,73,41%,Quebec,Non-Aboriginal,690
 2449095,Saint-Majorique-de-Grantham,77,62,95,86,80,33%,Quebec,Non-Aboriginal,1250
 2419025,Saint-Malachie,82,57,96,89,81,35%,Quebec,Non-Aboriginal,1435
@@ -2507,7 +2508,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2419110,Saint-Michel-de-Bellechasse,89,59,94,89,83,33%,Quebec,Non-Aboriginal,1800
 2413065,Saint-Michel-du-Squatec,77,43,93,72,71,44%,Quebec,Non-Aboriginal,1120
 2407095,Saint-Mo�se,69,48,92,76,71,46%,Quebec,Non-Aboriginal,565
-2411025,Saint-M�dard,76,37,95,76,71,40%,Quebec,Non-Aboriginal,270
+2419045,Saint-N_r_e,81,45,94,84,76,34%,Quebec,Non-Aboriginal,725
 2437240,Saint-Narcisse,80,57,93,85,79,28%,Quebec,Non-Aboriginal,1705
 2433030,Saint-Narcisse-de-Beaurivage,72,58,96,88,78,27%,Quebec,Non-Aboriginal,1085
 2410015,Saint-Narcisse-de-Rimouski,70,46,97,86,75,45%,Quebec,Non-Aboriginal,1060
@@ -2515,10 +2516,9 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2419015,Saint-Nazaire-de-Dorchester,73,35,93,83,71,32%,Quebec,Non-Aboriginal,295
 2439043,Saint-Norbert-d'Arthabaska,81,43,93,94,78,31%,Quebec,Non-Aboriginal,1230
 2407100,Saint-No�l,70,35,94,71,67,43%,Quebec,Non-Aboriginal,435
-2419045,Saint-N�r�e,81,45,94,84,76,34%,Quebec,Non-Aboriginal,725
 2427035,Saint-Odilon-de-Cranbourne,73,46,99,88,77,35%,Quebec,Non-Aboriginal,1530
 2417005,Saint-Omer,76,28,98,83,71,24%,Quebec,Non-Aboriginal,310
-2414080,Saint-On�sime-d'Ixworth,71,39,94,83,72,27%,Quebec,Non-Aboriginal,560
+2414080,Saint-On_sime-d'Ixworth,71,39,94,83,72,27%,Quebec,Non-Aboriginal,560
 2453032,Saint-Ours,86,59,92,88,81,40%,Quebec,Non-Aboriginal,1750
 2414070,Saint-Pac�me,80,54,96,83,78,36%,Quebec,Non-Aboriginal,1515
 2417010,Saint-Pamphile,81,41,97,87,77,33%,Quebec,Non-Aboriginal,2625
@@ -2531,17 +2531,17 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2418030,Saint-Paul-de-Montminy,76,46,92,76,73,24%,Quebec,Non-Aboriginal,825
 2412035,Saint-Paul-de-la-Croix,72,50,96,78,74,22%,Quebec,Non-Aboriginal,370
 2451060,Saint-Paulin,80,52,95,83,78,40%,Quebec,Non-Aboriginal,1510
+2419005,Saint-Phil_mon,73,39,97,80,72,44%,Quebec,Non-Aboriginal,715
 2429065,Saint-Philibert,78,55,92,89,78,31%,Quebec,Non-Aboriginal,370
 2467010,Saint-Philippe,87,60,96,92,84,34%,Quebec,Non-Aboriginal,5465
-2414060,Saint-Philippe-de-N�ri,71,33,93,82,70,28%,Quebec,Non-Aboriginal,880
-2419005,Saint-Phil�mon,73,39,97,80,72,44%,Quebec,Non-Aboriginal,715
+2414060,Saint-Philippe-de-N_ri,71,33,93,82,70,28%,Quebec,Non-Aboriginal,880
 2454008,Saint-Pie,80,52,97,89,80,31%,Quebec,Non-Aboriginal,5405
 2461020,Saint-Pierre,76,51,90,87,76,23%,Quebec,Non-Aboriginal,305
 2432050,Saint-Pierre-Baptiste,,,,,81,45%,Quebec,Non-Aboriginal,475
 2431135,Saint-Pierre-de-Broughton,75,50,82,85,73,40%,Quebec,Non-Aboriginal,925
 2413075,Saint-Pierre-de-Lamy,,,,,76,3%,Quebec,Non-Aboriginal,80
-2446025,Saint-Pierre-de-V�ronne-�-Pike-River,75,45,93,89,75,44%,Quebec,Non-Aboriginal,525
-2420025,Saint-Pierre-de-l'�le-d'Orl�ans,85,53,98,88,81,45%,Quebec,Non-Aboriginal,1725
+2446025,Saint-Pierre-de-V_ronne-�-Pike-River,75,45,93,89,75,44%,Quebec,Non-Aboriginal,525
+2420025,Saint-Pierre-de-l'�le-d'Orl_ans,85,53,98,88,81,45%,Quebec,Non-Aboriginal,1725
 2418055,Saint-Pierre-de-la-Rivi�re-du-Sud,82,51,93,88,78,26%,Quebec,Non-Aboriginal,920
 2438065,Saint-Pierre-les-Becquets,86,55,96,83,80,46%,Quebec,Non-Aboriginal,1190
 2472043,Saint-Placide,83,55,96,85,80,29%,Quebec,Non-Aboriginal,1640
@@ -2549,9 +2549,11 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2491035,Saint-Prime,80,59,95,84,80,38%,Quebec,Non-Aboriginal,2740
 2428020,Saint-Prosper,78,46,98,87,77,29%,Quebec,Non-Aboriginal,3490
 2437250,Saint-Prosper-de-Champlain,86,57,94,82,80,32%,Quebec,Non-Aboriginal,500
+2468055,Saint-R_mi,84,47,95,89,79,34%,Quebec,Non-Aboriginal,6940
+2439020,Saint-R_mi-de-Tingwick,84,52,91,93,80,38%,Quebec,Non-Aboriginal,470
 2419082,Saint-Rapha�l,77,53,93,87,78,41%,Quebec,Non-Aboriginal,2375
 2434128,Saint-Raymond,83,53,95,88,80,46%,Quebec,Non-Aboriginal,9310
-2429050,Saint-Ren�,78,44,86,86,73,43%,Quebec,Non-Aboriginal,655
+2429050,Saint-Ren_,78,44,86,86,73,43%,Quebec,Non-Aboriginal,655
 2453020,Saint-Robert,83,41,96,83,76,43%,Quebec,Non-Aboriginal,1775
 2430070,Saint-Robert-Bellarmin,69,26,99,82,69,42%,Quebec,Non-Aboriginal,640
 2453040,Saint-Roch-de-Richelieu,83,58,92,84,79,36%,Quebec,Non-Aboriginal,2050
@@ -2559,49 +2561,47 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2417065,Saint-Roch-des-Aulnaies,84,56,98,83,80,13%,Quebec,Non-Aboriginal,970
 2430100,Saint-Romain,75,44,96,80,74,20%,Quebec,Non-Aboriginal,665
 2439145,Saint-Rosaire,76,45,96,82,75,41%,Quebec,Non-Aboriginal,735
-2468055,Saint-R�mi,84,47,95,89,79,34%,Quebec,Non-Aboriginal,6940
-2439020,Saint-R�mi-de-Tingwick,84,52,91,93,80,38%,Quebec,Non-Aboriginal,470
+2456050,Saint-S_bastien,72,47,90,86,74,32%,Quebec,Non-Aboriginal,720
+2430085,Saint-S_bastien,80,41,97,89,77,19%,Quebec,Non-Aboriginal,680
+2435020,Saint-S_verin,81,55,97,81,78,29%,Quebec,Non-Aboriginal,845
+2451030,Saint-S_v�re,79,59,98,89,81,32%,Quebec,Non-Aboriginal,315
 2439130,Saint-Samuel,75,51,95,90,78,26%,Quebec,Non-Aboriginal,740
 2477043,Saint-Sauveur,95,66,96,84,85,31%,Quebec,Non-Aboriginal,9680
+2415058,Saint-Sim_on,83,46,95,76,75,22%,Quebec,Non-Aboriginal,1220
 2411055,Saint-Simon,80,51,94,84,77,24%,Quebec,Non-Aboriginal,435
 2454090,Saint-Simon,79,55,96,90,80,38%,Quebec,Non-Aboriginal,1250
 2429125,Saint-Simon-les-Mines,99,53,98,93,86,33%,Quebec,Non-Aboriginal,510
-2415058,Saint-Sim�on,83,46,95,76,75,22%,Quebec,Non-Aboriginal,1220
 2480070,Saint-Sixte,79,53,89,82,76,44%,Quebec,Non-Aboriginal,455
-2492070,Saint-Stanislas,77,49,94,84,76,18%,Quebec,Non-Aboriginal,405
 2437245,Saint-Stanislas,79,50,98,83,78,21%,Quebec,Non-Aboriginal,1020
+2492070,Saint-Stanislas,77,49,94,84,76,18%,Quebec,Non-Aboriginal,405
 2460020,Saint-Sulpice,89,56,96,87,82,27%,Quebec,Non-Aboriginal,3245
 2433007,Saint-Sylvestre,77,53,95,86,78,42%,Quebec,Non-Aboriginal,995
 2438005,Saint-Sylv�re,73,51,93,82,75,42%,Quebec,Non-Aboriginal,865
-2456050,Saint-S�bastien,72,47,90,86,74,32%,Quebec,Non-Aboriginal,720
-2430085,Saint-S�bastien,80,41,97,89,77,19%,Quebec,Non-Aboriginal,680
-2435020,Saint-S�verin,81,55,97,81,78,29%,Quebec,Non-Aboriginal,845
-2451030,Saint-S�v�re,79,59,98,89,81,32%,Quebec,Non-Aboriginal,315
+2471015,Saint-T_lesphore,82,53,87,85,77,37%,Quebec,Non-Aboriginal,760
+2448045,Saint-Th_odore-d'Acton,90,50,95,87,80,41%,Quebec,Non-Aboriginal,1350
 2407070,Saint-Tharcisius,62,54,79,66,65,43%,Quebec,Non-Aboriginal,510
 2461027,Saint-Thomas,85,56,98,85,81,45%,Quebec,Non-Aboriginal,3155
 2492045,Saint-Thomas-Didyme,78,44,94,68,71,25%,Quebec,Non-Aboriginal,660
 2434085,Saint-Thuribe,84,52,98,90,81,46%,Quebec,Non-Aboriginal,290
-2448045,Saint-Th�odore-d'Acton,90,50,95,87,80,41%,Quebec,Non-Aboriginal,1350
 2435027,Saint-Tite,79,51,95,82,77,28%,Quebec,Non-Aboriginal,3745
 2421005,Saint-Tite-des-Caps,79,48,91,81,75,44%,Quebec,Non-Aboriginal,1500
-2471015,Saint-T�lesphore,82,53,87,85,77,37%,Quebec,Non-Aboriginal,760
 2408073,Saint-Ulric,84,50,95,82,78,37%,Quebec,Non-Aboriginal,1630
 2416055,Saint-Urbain,79,47,94,84,76,25%,Quebec,Non-Aboriginal,1410
 2470005,Saint-Urbain-Premier,,,,,86,44%,Quebec,Non-Aboriginal,970
+2410060,Saint-Val_rien,75,45,88,79,72,43%,Quebec,Non-Aboriginal,945
+2454065,Saint-Val_rien-de-Milton,84,51,96,92,81,35%,Quebec,Non-Aboriginal,1800
 2456030,Saint-Valentin,76,48,90,92,76,34%,Quebec,Non-Aboriginal,470
 2419117,Saint-Vallier,87,60,94,87,82,39%,Quebec,Non-Aboriginal,985
 2439135,Saint-Val�re,80,55,94,90,80,37%,Quebec,Non-Aboriginal,1285
-2410060,Saint-Val�rien,75,45,88,79,72,43%,Quebec,Non-Aboriginal,945
-2454065,Saint-Val�rien-de-Milton,84,51,96,92,81,35%,Quebec,Non-Aboriginal,1800
 2407075,Saint-Vianney,68,43,93,72,69,21%,Quebec,Non-Aboriginal,480
 2427008,Saint-Victor,81,47,94,89,78,31%,Quebec,Non-Aboriginal,2355
 2450023,Saint-Wenceslas,80,49,91,89,77,50%,Quebec,Non-Aboriginal,1145
+2450090,Saint-Z_phirin-de-Courval,84,50,96,90,80,45%,Quebec,Non-Aboriginal,735
 2428005,Saint-Zacharie,75,41,97,82,74,16%,Quebec,Non-Aboriginal,1680
 2471025,Saint-Zotique,91,57,98,89,84,31%,Quebec,Non-Aboriginal,6725
-2450090,Saint-Z�phirin-de-Courval,84,50,96,90,80,45%,Quebec,Non-Aboriginal,735
 2468045,Saint-�douard,80,48,96,92,79,49%,Quebec,Non-Aboriginal,1310
 2433080,Saint-�douard-de-Lotbini�re,75,49,94,83,75,29%,Quebec,Non-Aboriginal,1215
-2451050,Saint-�douard-de-Maskinong�,71,41,95,73,70,27%,Quebec,Non-Aboriginal,775
+2451050,Saint-�douard-de-Maskinong_,71,41,95,73,70,27%,Quebec,Non-Aboriginal,775
 2451075,Saint-�lie-de-Caxton,83,53,95,77,77,35%,Quebec,Non-Aboriginal,1670
 2411035,Saint-�loi,79,54,95,95,80,36%,Quebec,Non-Aboriginal,295
 2429112,Saint-�phrem-de-Beauce,82,45,98,91,79,37%,Quebec,Non-Aboriginal,2525
@@ -2614,23 +2614,26 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2433017,Sainte-Agathe-de-Lotbini�re,76,49,97,94,79,32%,Quebec,Non-Aboriginal,1095
 2478032,Sainte-Agathe-des-Monts,83,55,96,85,80,42%,Quebec,Non-Aboriginal,9760
 2455030,Sainte-Ang�le-de-Monnoir,80,53,94,88,79,22%,Quebec,Non-Aboriginal,1810
-2451055,Sainte-Ang�le-de-Pr�mont,71,34,97,76,69,32%,Quebec,Non-Aboriginal,605
-2421030,Sainte-Anne-de-Beaupr�,80,55,91,81,77,35%,Quebec,Non-Aboriginal,2790
+2451055,Sainte-Ang�le-de-Pr_mont,71,34,97,76,69,32%,Quebec,Non-Aboriginal,605
+2421030,Sainte-Anne-de-Beaupr_,80,55,91,81,77,35%,Quebec,Non-Aboriginal,2790
 2466117,Sainte-Anne-de-Bellevue,92,74,95,85,87,29%,Quebec,Non-Aboriginal,4655
 2456060,Sainte-Anne-de-Sabrevois,86,48,92,89,79,43%,Quebec,Non-Aboriginal,2075
 2453065,Sainte-Anne-de-Sorel,88,59,96,82,81,31%,Quebec,Non-Aboriginal,2745
+2437205,Sainte-Anne-de-la-P_rade,82,52,90,84,77,45%,Quebec,Non-Aboriginal,1965
 2414090,Sainte-Anne-de-la-Pocati�re,83,52,94,86,79,34%,Quebec,Non-Aboriginal,1680
-2437205,Sainte-Anne-de-la-P�rade,82,52,90,84,77,45%,Quebec,Non-Aboriginal,1965
 2442050,Sainte-Anne-de-la-Rochelle,84,56,96,92,82,15%,Quebec,Non-Aboriginal,625
 2477035,Sainte-Anne-des-Lacs,97,74,95,87,89,32%,Quebec,Non-Aboriginal,3360
 2404037,Sainte-Anne-des-Monts,82,46,91,74,73,19%,Quebec,Non-Aboriginal,6700
 2473035,Sainte-Anne-des-Plaines,81,54,96,88,80,16%,Quebec,Non-Aboriginal,13485
 2479115,Sainte-Anne-du-Lac,,,,,69,36%,Quebec,Non-Aboriginal,615
 2418025,Sainte-Apolline-de-Patton,73,32,94,82,70,33%,Quebec,Non-Aboriginal,540
-2428015,Sainte-Aur�lie,75,40,96,82,73,33%,Quebec,Non-Aboriginal,960
+2428015,Sainte-Aur_lie,75,40,96,82,73,33%,Quebec,Non-Aboriginal,960
+2462020,Sainte-B_atrix,85,59,95,81,80,35%,Quebec,Non-Aboriginal,1810
 2469065,Sainte-Barbe,84,50,97,83,78,38%,Quebec,Non-Aboriginal,1405
 2422045,Sainte-Brigitte-de-Laval,88,65,96,93,85,29%,Quebec,Non-Aboriginal,5685
-2462020,Sainte-B�atrix,85,59,95,81,80,35%,Quebec,Non-Aboriginal,1810
+2438060,Sainte-C_cile-de-L_vrard,71,42,87,89,72,46%,Quebec,Non-Aboriginal,315
+2447055,Sainte-C_cile-de-Milton,80,49,96,90,79,32%,Quebec,Non-Aboriginal,2145
+2430050,Sainte-C_cile-de-Whitton,74,37,90,88,72,28%,Quebec,Non-Aboriginal,865
 2467030,Sainte-Catherine,87,59,97,92,84,23%,Quebec,Non-Aboriginal,16550
 2445060,Sainte-Catherine-de-Hatley,87,64,95,87,83,35%,Quebec,Non-Aboriginal,2560
 2422005,Sainte-Catherine-de-la-Jacques-Cartier,86,62,98,91,84,32%,Quebec,Non-Aboriginal,6325
@@ -2640,25 +2643,22 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2431060,Sainte-Clotilde-de-Beauce,,,,,74,39%,Quebec,Non-Aboriginal,635
 2439117,Sainte-Clotilde-de-Horton,79,49,92,83,76,45%,Quebec,Non-Aboriginal,1610
 2433102,Sainte-Croix,83,58,97,89,82,39%,Quebec,Non-Aboriginal,2230
-2438060,Sainte-C�cile-de-L�vrard,71,42,87,89,72,46%,Quebec,Non-Aboriginal,315
-2447055,Sainte-C�cile-de-Milton,80,49,96,90,79,32%,Quebec,Non-Aboriginal,2145
-2430050,Sainte-C�cile-de-Whitton,74,37,90,88,72,28%,Quebec,Non-Aboriginal,865
 2444055,Sainte-Edwidge-de-Clifton,69,42,97,91,75,37%,Quebec,Non-Aboriginal,485
 2450005,Sainte-Eulalie,76,50,96,83,76,32%,Quebec,Non-Aboriginal,870
-2418035,Sainte-Euph�mie-sur-Rivi�re-du-Sud,68,50,85,72,68,44%,Quebec,Non-Aboriginal,380
+2418035,Sainte-Euph_mie-sur-Rivi�re-du-Sud,68,50,85,72,68,44%,Quebec,Non-Aboriginal,380
+2408023,Sainte-F_licit_,78,43,95,76,73,39%,Quebec,Non-Aboriginal,1180
+2417025,Sainte-F_licit_,77,30,97,80,71,43%,Quebec,Non-Aboriginal,405
 2420010,Sainte-Famille,86,66,90,87,82,29%,Quebec,Non-Aboriginal,810
 2409085,Sainte-Flavie,84,61,95,85,81,49%,Quebec,Non-Aboriginal,900
 2407010,Sainte-Florence,,,,,71,17%,Quebec,Non-Aboriginal,220
 2411030,Sainte-Fran�oise,74,33,92,86,71,43%,Quebec,Non-Aboriginal,450
-2417025,Sainte-F�licit�,77,30,97,80,71,43%,Quebec,Non-Aboriginal,405
-2408023,Sainte-F�licit�,78,43,95,76,73,39%,Quebec,Non-Aboriginal,1180
 2437215,Sainte-Genevi�ve-de-Batiscan,82,49,95,81,77,34%,Quebec,Non-Aboriginal,1050
 2452040,Sainte-Genevi�ve-de-Berthier,82,51,96,86,79,39%,Quebec,Non-Aboriginal,2345
-2487030,Sainte-Germaine-Boul�,80,47,96,79,75,31%,Quebec,Non-Aboriginal,895
-2454095,Sainte-H�l�ne-de-Bagot,82,50,95,89,79,43%,Quebec,Non-Aboriginal,1610
-2439035,Sainte-H�l�ne-de-Chester,85,52,93,96,81,34%,Quebec,Non-Aboriginal,360
-2487070,Sainte-H�l�ne-de-Mancebourg,83,54,86,91,78,43%,Quebec,Non-Aboriginal,355
-2426040,Sainte-H�n�dine,84,58,94,93,82,25%,Quebec,Non-Aboriginal,1155
+2487030,Sainte-Germaine-Boul_,80,47,96,79,75,31%,Quebec,Non-Aboriginal,895
+2454095,Sainte-H_l�ne-de-Bagot,82,50,95,89,79,43%,Quebec,Non-Aboriginal,1610
+2439035,Sainte-H_l�ne-de-Chester,85,52,93,96,81,34%,Quebec,Non-Aboriginal,360
+2487070,Sainte-H_l�ne-de-Mancebourg,83,54,86,91,78,43%,Quebec,Non-Aboriginal,355
+2426040,Sainte-H_n_dine,84,58,94,93,82,25%,Quebec,Non-Aboriginal,1155
 2407040,Sainte-Ir�ne,79,44,92,79,73,38%,Quebec,Non-Aboriginal,300
 2492015,Sainte-Jeanne-d'Arc,79,50,97,76,75,21%,Quebec,Non-Aboriginal,1060
 2459010,Sainte-Julie,94,70,98,91,88,21%,Quebec,Non-Aboriginal,29450
@@ -2669,6 +2669,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2409092,Sainte-Luce,84,56,96,85,80,38%,Quebec,Non-Aboriginal,2765
 2418020,Sainte-Lucie-de-Beauregard,72,40,93,87,73,30%,Quebec,Non-Aboriginal,300
 2478020,Sainte-Lucie-des-Laurentides,84,59,97,81,80,47%,Quebec,Non-Aboriginal,1245
+2461050,Sainte-M_lanie,82,61,98,86,82,50%,Quebec,Non-Aboriginal,2865
 2454025,Sainte-Madeleine,85,57,98,93,83,22%,Quebec,Non-Aboriginal,2345
 2404005,Sainte-Madeleine-de-la-Rivi�re-Madeleine,69,34,84,40,57,45%,Quebec,Non-Aboriginal,325
 2462030,Sainte-Marcelline-de-Kildare,83,62,96,83,81,25%,Quebec,Non-Aboriginal,1570
@@ -2678,30 +2679,29 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2426030,Sainte-Marie,84,56,97,89,81,22%,Quebec,Non-Aboriginal,12640
 2454030,Sainte-Marie-Madeleine,86,53,98,91,82,29%,Quebec,Non-Aboriginal,2935
 1315033,Sainte-Marie-Saint-Rapha�l,77,35,90,79,70,45%,New Brunswick,Non-Aboriginal,1085
-2463005,Sainte-Marie-Salom�,79,52,96,84,78,44%,Quebec,Non-Aboriginal,1145
+2463005,Sainte-Marie-Salom_,79,52,96,84,78,44%,Quebec,Non-Aboriginal,1145
 2471110,Sainte-Marthe,84,49,94,88,79,49%,Quebec,Non-Aboriginal,1060
 2472015,Sainte-Marthe-sur-le-Lac,88,60,97,90,84,13%,Quebec,Non-Aboriginal,15600
 2470012,Sainte-Martine,85,57,95,89,82,38%,Quebec,Non-Aboriginal,5110
-2493075,Sainte-Monique,82,47,96,80,76,20%,Quebec,Non-Aboriginal,855
 2450057,Sainte-Monique,74,42,92,88,74,37%,Quebec,Non-Aboriginal,550
-2461050,Sainte-M�lanie,82,61,98,86,82,50%,Quebec,Non-Aboriginal,2865
+2493075,Sainte-Monique,82,47,96,80,76,20%,Quebec,Non-Aboriginal,855
+2420030,Sainte-P_tronille,100,77,97,88,91,39%,Quebec,Non-Aboriginal,1015
 2408040,Sainte-Paule,,,,,74,33%,Quebec,Non-Aboriginal,195
-2417030,Sainte-Perp�tue,77,44,97,83,75,35%,Quebec,Non-Aboriginal,1735
-2450050,Sainte-Perp�tue,71,42,91,92,74,47%,Quebec,Non-Aboriginal,955
-2420030,Sainte-P�tronille,100,77,97,88,91,39%,Quebec,Non-Aboriginal,1015
+2417030,Sainte-Perp_tue,77,44,97,83,75,35%,Quebec,Non-Aboriginal,1735
+2450050,Sainte-Perp_tue,71,42,91,92,74,47%,Quebec,Non-Aboriginal,955
 2411015,Sainte-Rita,67,31,93,58,62,46%,Quebec,Non-Aboriginal,275
 2428030,Sainte-Rose-de-Watford,75,43,93,85,74,26%,Quebec,Non-Aboriginal,780
 2494230,Sainte-Rose-du-Nord,81,65,91,78,79,39%,Quebec,Non-Aboriginal,400
-2446105,Sainte-Sabine,84,48,99,91,81,40%,Quebec,Non-Aboriginal,1095
+2439105,Sainte-S_raphine,,,,,80,43%,Quebec,Non-Aboriginal,380
 2428065,Sainte-Sabine,82,54,91,86,78,18%,Quebec,Non-Aboriginal,380
+2446105,Sainte-Sabine,84,48,99,91,81,40%,Quebec,Non-Aboriginal,1095
 2475028,Sainte-Sophie,80,50,95,87,78,21%,Quebec,Non-Aboriginal,13195
 2432023,Sainte-Sophie-d'Halifax,82,53,94,96,81,40%,Quebec,Non-Aboriginal,665
-2439105,Sainte-S�raphine,,,,,80,43%,Quebec,Non-Aboriginal,380
-2473010,Sainte-Th�r�se,87,58,96,87,82,18%,Quebec,Non-Aboriginal,24805
-2402010,Sainte-Th�r�se-de-Gasp�,71,37,96,76,70,38%,Quebec,Non-Aboriginal,1065
+2473010,Sainte-Th_r�se,87,58,96,87,82,18%,Quebec,Non-Aboriginal,24805
+2402010,Sainte-Th_r�se-de-Gasp_,71,37,96,76,70,38%,Quebec,Non-Aboriginal,1065
 2451040,Sainte-Ursule,80,45,96,73,73,40%,Quebec,Non-Aboriginal,1345
 2453025,Sainte-Victoire-de-Sorel,82,52,96,87,79,24%,Quebec,Non-Aboriginal,2500
-2462070,Sainte-�m�lie-de-l'�nergie,77,46,93,76,73,41%,Quebec,Non-Aboriginal,1645
+2462070,Sainte-�m_lie-de-l'�nergie,77,46,93,76,73,41%,Quebec,Non-Aboriginal,1645
 2426010,Saints-Anges,81,59,98,90,82,50%,Quebec,Non-Aboriginal,1160
 2439005,Saints-Martyrs-Canadiens,,,,,78,34%,Quebec,Non-Aboriginal,125
 4705805,Sakimay 74,69,34,61,71,59,41%,Saskatchewan,First Nation,310
@@ -2752,8 +2752,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 4613047,Selkirk,83,52,93,88,79,27%,Manitoba,Non-Aboriginal,9245
 5915801,Semiahmoo,,,,,76,24%,British Columbia,First Nation,105
 4713076,Senlac No. 411,,,,,86,1%,Saskatchewan,Non-Aboriginal,75
-2489040,Senneterre,82,46,92,83,76,39%,Quebec,Non-Aboriginal,2900
 2489045,Senneterre,83,44,94,80,75,40%,Quebec,Non-Aboriginal,1220
+2489040,Senneterre,82,46,92,83,76,39%,Quebec,Non-Aboriginal,2900
 2466127,Senneville,100,80,99,88,92,27%,Quebec,Non-Aboriginal,915
 2497007,Sept-�les,91,55,94,86,81,30%,Quebec,Non-Aboriginal,25335
 3557072,Serpent River 7,65,48,86,80,70,9%,Ontario,First Nation,365
@@ -2770,11 +2770,11 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2447035,Shefford,87,64,97,88,84,33%,Quebec,Non-Aboriginal,6690
 3551042,Sheguiandah 24,,,,,67,3%,Ontario,First Nation,155
 4709024,Sheho,,,,,65,35%,Saskatchewan,Non-Aboriginal,80
-3522021,Shelburne,81,59,97,88,81,35%,Ontario,Non-Aboriginal,5585
 1201008,Shelburne,79,55,92,75,75,37%,Nova Scotia,Non-Aboriginal,1665
+3522021,Shelburne,81,59,97,88,81,35%,Ontario,Non-Aboriginal,5585
 4716046,Shellbrook No. 493,79,48,88,88,76,49%,Saskatchewan,Non-Aboriginal,1605
-1103018,Sherbrooke,,,,,90,0%,Prince Edward Island,Non-Aboriginal,65
 2443027,Sherbrooke,84,63,96,85,82,17%,Quebec,Non-Aboriginal,150255
+1103018,Sherbrooke,,,,,90,0%,Prince Edward Island,Non-Aboriginal,65
 1010802,Sheshatshiu 3,61,20,67,69,54,21%,Newfoundland and Labrador,First Nation,1300
 4705807,Shesheep 74A,,,,,78,16%,Saskatchewan,First Nation,135
 3551044,Sheshegwaning 20,,,,,67,11%,Ontario,First Nation,120
@@ -2973,8 +2973,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5929026,Sunshine Coast E,90,66,95,87,85,34%,British Columbia,Non-Aboriginal,3545
 5929028,Sunshine Coast F,96,67,97,86,86,40%,British Columbia,Non-Aboriginal,1875
 5915004,Surrey,84,63,92,85,81,27%,British Columbia,Non-Aboriginal,463340
-1305021,Sussex,83,61,93,88,81,39%,New Brunswick,Non-Aboriginal,2575
 1305022,Sussex,84,57,94,87,80,26%,New Brunswick,Non-Aboriginal,4215
+1305021,Sussex,83,61,93,88,81,39%,New Brunswick,Non-Aboriginal,2575
 1305023,Sussex Corner,85,57,94,88,81,23%,New Brunswick,Non-Aboriginal,1545
 2446058,Sutton,90,63,97,84,84,30%,Quebec,Non-Aboriginal,3900
 4703074,Sutton No. 103,,,,,74,41%,Saskatchewan,Non-Aboriginal,240
@@ -2989,10 +2989,11 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 5939808,Switsemalph 3,,,,,60,7%,British Columbia,First Nation,90
 4808012,Sylvan Lake,95,61,97,89,85,30%,Alberta,Non-Aboriginal,12225
 5917819,T'Sou-ke,,,,,75,17%,British Columbia,First Nation,225
+2413073,T_miscouata-sur-le-Lac,84,53,93,84,78,22%,Quebec,Non-Aboriginal,4885
 4802021,Taber,80,46,87,89,76,41%,Alberta,Non-Aboriginal,5970
 4802022,Taber,87,51,96,90,81,35%,Alberta,Non-Aboriginal,8015
+4602069,Tach_,86,62,94,91,83,30%,Manitoba,Non-Aboriginal,10255
 5951810,Tache 1,48,24,69,55,49,21%,British Columbia,First Nation,465
-4602069,Tach�,86,62,94,91,83,30%,Manitoba,Non-Aboriginal,10255
 2495005,Tadoussac,80,55,94,76,76,38%,Quebec,Non-Aboriginal,840
 4817838,Tall Cree 173,,,,,46,13%,Alberta,First Nation,200
 4817840,Tall Cree 173A,,,,,54,4%,Alberta,First Nation,160
@@ -3059,6 +3060,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3520005,Toronto,93,69,91,84,84,27%,Ontario,Non-Aboriginal,2576030
 4710014,Touchwood No. 248,75,58,93,90,79,41%,Saskatchewan,Non-Aboriginal,265
 2417035,Tourville,74,31,87,75,67,39%,Quebec,Non-Aboriginal,615
+2488075,Tr_cesson,92,53,94,85,81,41%,Quebec,Non-Aboriginal,1105
 1315003,Tracadie-Sheila,83,52,92,82,77,25%,New Brunswick,Non-Aboriginal,4700
 1303005,Tracy,78,50,92,85,76,44%,New Brunswick,Non-Aboriginal,605
 5905014,Trail,88,58,93,82,81,28%,British Columbia,Non-Aboriginal,7405
@@ -3075,8 +3077,7 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 6104006,Trout Lake,,,,,72,20%,Northwest Territories,First Nation,70
 1009010,Trout River,74,39,88,65,66,40%,Newfoundland and Labrador,Non-Aboriginal,590
 1210006,Truro,84,58,94,83,80,26%,Nova Scotia,Non-Aboriginal,11580
-2488075,Tr�cesson,92,53,94,85,81,41%,Quebec,Non-Aboriginal,1105
-2471125,Tr�s-Saint-R�dempteur,85,57,95,91,82,34%,Quebec,Non-Aboriginal,765
+2471125,Tr�s-Saint-R_dempteur,85,57,95,91,82,34%,Quebec,Non-Aboriginal,765
 2469030,Tr�s-Saint-Sacrement,86,55,97,87,81,41%,Quebec,Non-Aboriginal,1155
 5924835,Tsa Xana 18,,,,,51,27%,British Columbia,First Nation,235
 5923816,Tsahaheh 1,63,40,84,70,64,25%,British Columbia,First Nation,585
@@ -3096,7 +3097,6 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3512001,Tyendinaga,82,64,98,88,83,31%,Ontario,Non-Aboriginal,4210
 3512004,Tyendinaga Mohawk Territory,67,48,91,78,71,39%,Ontario,First Nation,2505
 5909830,Tzeachten 13,81,51,96,67,74,26%,British Columbia,First Nation,1375
-2413073,T�miscouata-sur-le-Lac,84,53,93,84,78,22%,Quebec,Non-Aboriginal,4885
 2497802,Uashat,61,28,73,68,57,22%,Quebec,First Nation,1475
 5941880,Ulkatcho 14A,,,,,52,10%,British Columbia,First Nation,140
 6101095,Ulukhaktok,76,30,74,77,64,4%,Northwest Territories,Inuit,415
@@ -3123,12 +3123,12 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2489008,Val-d'Or,89,53,96,87,81,31%,Quebec,Non-Aboriginal,31220
 2480140,Val-des-Bois,84,49,89,77,75,48%,Quebec,Non-Aboriginal,935
 2482015,Val-des-Monts,90,57,94,87,82,27%,Quebec,Non-Aboriginal,10410
-2442060,Valcourt,85,58,94,87,81,34%,Quebec,Non-Aboriginal,1050
 2442055,Valcourt,82,52,98,86,79,30%,Quebec,Non-Aboriginal,2260
+2442060,Valcourt,85,58,94,87,81,34%,Quebec,Non-Aboriginal,1050
 5953007,Valemount,84,50,94,85,79,33%,British Columbia,Non-Aboriginal,970
+2426015,Vall_e-Jonction,83,52,96,90,80,38%,Quebec,Non-Aboriginal,1955
 4616046,Valley River 63A,45,29,49,57,45,6%,Manitoba,First Nation,370
 4818018,Valleyview,93,52,92,90,82,49%,Alberta,Non-Aboriginal,1690
-2426015,Vall�e-Jonction,83,52,96,90,80,38%,Quebec,Non-Aboriginal,1955
 5915022,Vancouver,94,72,92,86,86,25%,British Columbia,Non-Aboriginal,590205
 5951007,Vanderhoof,88,57,95,85,82,26%,British Columbia,Non-Aboriginal,4365
 4703062,Vanguard,,,,,72,41%,Saskatchewan,Non-Aboriginal,85
@@ -3139,14 +3139,14 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3519028,Vaughan,92,67,96,88,86,23%,Ontario,Non-Aboriginal,286305
 4802029,Vauxhall,83,46,89,88,76,39%,Alberta,Non-Aboriginal,1285
 4810028,Vegreville,89,56,91,90,82,30%,Alberta,Non-Aboriginal,5420
-2456005,Venise-en-Qu�bec,88,52,89,81,78,29%,Quebec,Non-Aboriginal,1545
+2456005,Venise-en-Qu_bec,88,52,89,81,78,29%,Quebec,Non-Aboriginal,1545
 2459025,Verch�res,88,60,96,89,83,24%,Quebec,Non-Aboriginal,5640
 4810042,Vermilion,91,62,95,92,85,38%,Alberta,Non-Aboriginal,3800
 4810036,Vermilion River County,94,57,92,91,84,49%,Alberta,Non-Aboriginal,7825
 5937014,Vernon,86,61,95,84,81,27%,British Columbia,Non-Aboriginal,36485
-4608042,Victoria,81,49,98,93,80,38%,Manitoba,Non-Aboriginal,1075
 5917034,Victoria,91,73,94,87,86,25%,British Columbia,Non-Aboriginal,76025
 1102032,Victoria,,,,,75,27%,Prince Edward Island,Non-Aboriginal,70
+4608042,Victoria,81,49,98,93,80,38%,Manitoba,Non-Aboriginal,1075
 4601078,Victoria Beach,93,72,94,83,85,37%,Manitoba,Non-Aboriginal,375
 1218006,Victoria Subd. A,78,48,90,77,73,35%,Nova Scotia,Non-Aboriginal,2760
 1218001,Victoria Subd. B,83,58,92,77,78,38%,Nova Scotia,Non-Aboriginal,3775
@@ -3182,8 +3182,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 3560088,Wapekeka 2,51,22,72,73,55,7%,Ontario,First Nation,370
 5905018,Warfield,94,67,92,87,85,32%,British Columbia,Non-Aboriginal,1685
 4711068,Warman,91,58,97,92,85,24%,Saskatchewan,Non-Aboriginal,7025
-2439077,Warwick,81,50,96,89,79,15%,Quebec,Non-Aboriginal,4565
 3538043,Warwick,84,53,98,85,80,44%,Ontario,Non-Aboriginal,3605
+2439077,Warwick,81,50,96,89,79,15%,Quebec,Non-Aboriginal,4565
 3543064,Wasaga Beach,86,57,98,83,81,33%,Ontario,Non-Aboriginal,17400
 4622800,Wasagamack,33,20,33,63,37,27%,Manitoba,First Nation,1415
 4605047,Waskada,,,,,79,36%,Manitoba,Non-Aboriginal,185
@@ -3205,8 +3205,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 6103052,Wekwe�t�,,,,,66,15%,Northwest Territories,First Nation,140
 3526032,Welland,84,58,95,83,80,30%,Ontario,Non-Aboriginal,50065
 3530027,Wellesley,85,46,93,90,79,29%,Ontario,Non-Aboriginal,10715
-1308004,Wellington,81,42,94,80,74,45%,New Brunswick,Non-Aboriginal,3330
 1103029,Wellington,82,50,84,87,76,34%,Prince Edward Island,Non-Aboriginal,375
+1308004,Wellington,81,42,94,80,74,45%,New Brunswick,Non-Aboriginal,3330
 3523050,Wellington North,84,50,95,89,79,33%,Ontario,Non-Aboriginal,11215
 5941025,Wells,82,45,90,77,74,41%,British Columbia,Non-Aboriginal,255
 4705006,Welwyn,,,,,56,38%,Saskatchewan,Non-Aboriginal,100
@@ -3315,8 +3315,8 @@ CSD Code,Census subdivision (CSD) name,2011 Income Score,2011 Education Score,20
 2438802,W�linak,,,,,75,10%,Quebec,First Nation,180
 2451020,Yamachiche,79,51,94,84,77,26%,Quebec,Non-Aboriginal,2745
 2453072,Yamaska,82,50,93,85,78,32%,Quebec,Non-Aboriginal,1595
-1202004,Yarmouth,82,55,94,84,79,44%,Nova Scotia,Non-Aboriginal,9995
 1202006,Yarmouth,79,50,93,80,76,29%,Nova Scotia,Non-Aboriginal,6465
+1202004,Yarmouth,82,55,94,84,79,44%,Nova Scotia,Non-Aboriginal,9995
 1202040,Yarmouth 33,,,,,66,36%,Nova Scotia,First Nation,155
 5951801,Ye Koo Che 3,,,,,48,14%,British Columbia,First Nation,95
 4814003,Yellowhead County,95,50,94,88,82,37%,Alberta,Non-Aboriginal,10345
