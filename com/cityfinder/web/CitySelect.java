@@ -29,7 +29,7 @@ public class CitySelect extends HttpServlet{
         String city = request.getParameter("cityName"); //type cityName
 
 		/* Set up the request */
-        response.setContentType("application/json");
+        response.setContentType("text/plain");
         response.setCharacterEncoding("UTF-8");
         PrintWriter writer = response.getWriter(); // Get the writer to write the response to
 
@@ -63,12 +63,19 @@ public class CitySelect extends HttpServlet{
                 String[] citysInfo = searchCity.search(1, city); // An array of strings containing the city's data
 
 		/* Print a JSON object */
-                writer.write("{\"csdCode\":" + Integer.parseInt(citysInfo[0]) + ", \"csdName\":" + citysInfo[1] + ", \"income\": " + Integer.parseInt(citysInfo[2]) + ", \"education\": " + Integer.parseInt(citysInfo[3]) + ", \"housing\": " + Integer.parseInt(citysInfo[4]) + ", \"labourForceActivity\":" + Integer.parseInt(citysInfo[5]) + ", \"cwb\": " + Integer.parseInt(citysInfo[6]) + ", \"globalNonResponse\": " + Integer.parseInt(citysInfo[7]) + ", \"province\": " + citysInfo[8] + ", \"collectivityType\": " + citysInfo[9] + ", \"population\": " + Integer.parseInt(citysInfo[10]) + "}"); // ASSUMPTION: THE DATA FORMAT WILL BE EXACTLY AS IN THE DATASET
+                //writer.write("{\"csdCode\":" + Integer.parseInt(citysInfo[0]) + ", \"csdName\":" + citysInfo[1] + ", \"income\": " + Integer.parseInt(citysInfo[2]) + ", \"education\": " + Integer.parseInt(citysInfo[3]) + ", \"housing\": " + Integer.parseInt(citysInfo[4]) + ", \"labourForceActivity\":" + Integer.parseInt(citysInfo[5]) + ", \"cwb\": " + Integer.parseInt(citysInfo[6]) + ", \"globalNonResponse\": " + Integer.parseInt(citysInfo[7]) + ", \"province\": " + citysInfo[8] + ", \"collectivityType\": " + citysInfo[9] + ", \"population\": " + Integer.parseInt(citysInfo[10]) + "}"); // ASSUMPTION: THE DATA FORMAT WILL BE EXACTLY AS IN THE DATASET
+                writer.write("Search output:");
+
+                for (String s : citysInfo) // DEBUGGING: Print search return val
+                {
+                    writer.write("\"" + s + "\"");
+                    writer.println();
+                }
                 break;
             }
         }
 
-        writer.write("{\"status\": \"test\", \"requestType\": \"" + requestType + ", \", \"cityName\": \"" + city + "}\"\r\n\r\n"); // Print a JSON response
+        writer.write("{\"status\": \"test\", \"requestType\": \"" + requestType + ", \", \"cityName\": \"" + city + "\"}\r\n\r\n"); // Print a JSON response
     }
 
     public void handleRequest2(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException

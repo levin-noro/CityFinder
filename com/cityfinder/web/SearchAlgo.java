@@ -18,11 +18,13 @@ public class SearchAlgo {
     }
 
     public static String [] search(int sortType, String cityName)  {
-        int count =0;
+        String[] test = {"a", "b", "c", "test", cityName};
+       int count =0;
         ArrayList<String[]>  data = loadData("Canada well being.csv");
         PrintWriter debugWriter = null;
         int searchRes = 0;
-        try {
+        return test;
+        /**try {
             debugWriter = new PrintWriter(new File("dbgOutput.txt"));
             debugWriter.write("search input: sortType = " + sortType + ", cityName = \"" + cityName + "\"");
             for (String[] info : data) {
@@ -32,9 +34,9 @@ public class SearchAlgo {
                     count++;
                 }
             }
-            searchRes = binarySearch(data, cityName); // Search for the city
+            //searchRes = binarySearch(data, cityName); // Search for the city
             debugWriter.write("Search result (index): " + searchRes);
-            System.out.println("Search result (index): " + searchRes + "\nCity name: " + data.get(searchRes)[1]);
+            //System.out.println("Search result (index): " + searchRes + "\nCity name: " + data.get(searchRes)[1]);
         }
         catch (FileNotFoundException fnfe)
         {
@@ -50,7 +52,7 @@ public class SearchAlgo {
         finally {
             debugWriter.close();
             return data.get(searchRes);
-        }
+        }**/
     }
 
     private static int binarySearch(ArrayList<String[]> data, String cityName) {
