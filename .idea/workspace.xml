@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70bd9162-5399-433b-a00b-3aeef0288c80" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/example/model/BeerExpert.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/com/example/web/BeerSelect.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/result.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/model/BeerExpert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/web/BeerSelect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/CitySelect.class" afterPath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/CitySelect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/SearchAlgo.class" afterPath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/SearchAlgo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java" afterPath="$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java" />
     </list>
@@ -39,19 +31,7 @@
         <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/cityfinder/web/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
+              <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,11 +42,11 @@
       <file leaf-file-name="SearchAlgo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52640265">
-              <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
+            <state vertical-scroll-proportion="0.44884488">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2382#2392#0" expanded="true" />
+                <element signature="e#2572#2582#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +62,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Victor" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -95,8 +80,8 @@
         <option value="$PROJECT_DIR$/com/cityfinder/ListModule.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/model/ListModule.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/Quicksort.java" />
-        <option value="$PROJECT_DIR$/com/cityfinder/web/CitySelect.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/QuickSort.java" />
+        <option value="$PROJECT_DIR$/com/cityfinder/web/CitySelect.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java" />
       </list>
     </option>
@@ -527,6 +512,13 @@
       <option name="number" value="Default" />
       <updated>1457907884036</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed some stuff to debug.">
+      <created>1457983406922</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1457983406922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -567,6 +559,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed some stuff to debug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed some stuff to debug." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -592,7 +588,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2382#2392#0" expanded="true" />
+            <element signature="e#2572#2582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,7 +619,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2382#2392#0" expanded="true" />
+            <element signature="e#2572#2582#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -632,16 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.91435766">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -655,13 +641,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52640265">
-          <caret line="26" column="106" selection-start-line="26" selection-start-column="106" selection-end-line="26" selection-end-column="106" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2382#2392#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44884488">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2572#2582#0" expanded="true" />
           </folding>
         </state>
       </provider>
