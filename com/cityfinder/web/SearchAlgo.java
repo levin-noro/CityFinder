@@ -24,13 +24,14 @@ public class SearchAlgo {
         int searchRes = 0;
         try {
             debugWriter = new PrintWriter(new File("dbgOutput.txt"));
-            /*for (String[] info : data) {
+            debugWriter.write("search input: sortType = " + sortType + ", cityName = \"" + cityName + "\"");
+            for (String[] info : data) {
 
                 for (String s : info) {
-                    System.out.println(s);
+                    debugWriter.write(s);
                     count++;
                 }
-            }*/
+            }
             searchRes = binarySearch(data, cityName); // Search for the city
             debugWriter.write("Search result (index): " + searchRes);
             System.out.println("Search result (index): " + searchRes + "\nCity name: " + data.get(searchRes)[1]);
