@@ -1,5 +1,6 @@
 package com.cityfinder.web;
 
+        import javax.servlet.RequestDispatcher;
         import javax.servlet.ServletException;
         import javax.servlet.http.*;
         import java.io.*;
@@ -60,18 +61,21 @@ public class CitySelect extends HttpServlet{
                  * NOTE: THE BACK-END ASSUMES THAT THE FRONT-END WILL PRE-FILTER THE LIST OF CITIES SUCH THAT ONLY 1 CITY WILL BE FOUND.
                  */
                 SearchAlgo searchCity = new SearchAlgo();
-                String[] citysInfo = searchCity.search(1, city); // An array of strings containing the city's data
+                String[] citysInfo = searchCity.search(1, city, response); // An array of strings containing the city's data
+                request.setAttribute("citysInfo", citysInfo); // Store array for JSP
+                RequestDispatcher view = request.getRequestDispatcher("result.jsp");
+                view.forward(request, response);
 
 		/* Print a JSON object */
                 //writer.write("{\"csdCode\":" + Integer.parseInt(citysInfo[0]) + ", \"csdName\":" + citysInfo[1] + ", \"income\": " + Integer.parseInt(citysInfo[2]) + ", \"education\": " + Integer.parseInt(citysInfo[3]) + ", \"housing\": " + Integer.parseInt(citysInfo[4]) + ", \"labourForceActivity\":" + Integer.parseInt(citysInfo[5]) + ", \"cwb\": " + Integer.parseInt(citysInfo[6]) + ", \"globalNonResponse\": " + Integer.parseInt(citysInfo[7]) + ", \"province\": " + citysInfo[8] + ", \"collectivityType\": " + citysInfo[9] + ", \"population\": " + Integer.parseInt(citysInfo[10]) + "}"); // ASSUMPTION: THE DATA FORMAT WILL BE EXACTLY AS IN THE DATASET
-                writer.write("Search output:");
+                /*writer.write("Search output:");
 
                 for (String s : citysInfo) // DEBUGGING: Print search return val
                 {
                     writer.write("\"" + s + "\"");
                     writer.println();
                 }
-                break;
+                break;*/
             }
         }
 

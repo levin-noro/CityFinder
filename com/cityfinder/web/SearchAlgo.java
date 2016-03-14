@@ -3,6 +3,7 @@ package com.cityfinder.web;
         import java.io.*;
         import java.util.ArrayList;
 import javax.servlet.*;
+        import javax.servlet.http.HttpServletResponse;
 
 public class SearchAlgo {
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
@@ -25,6 +26,7 @@ public class SearchAlgo {
         try {
             debugWriter = new PrintWriter(new File("dbgOutput.txt"));
             debugWriter.write("search input: sortType = " + sortType + ", cityName = \"" + cityName + "\"");
+            debugWriter.println();
             for (String[] info : data) {
 
                 for (String s : info) {
@@ -36,7 +38,7 @@ public class SearchAlgo {
             searchRes = binarySearch(data, cityName); // Search for the city
             debugWriter.write("Search result (index): " + searchRes);
             debugWriter.println();
-            //System.out.println("Search result (index): " + searchRes + "\nCity name: " + data.get(searchRes)[1]);
+            System.out.println("Search result (index): " + searchRes);
         }
         catch (FileNotFoundException fnfe)
         {
@@ -51,6 +53,46 @@ public class SearchAlgo {
 
         finally {
             debugWriter.close();
+            //return data.get(searchRes);
+            String[] test = {"a", "b", "c", cityName, Integer.toString(searchRes)};
+            return test;
+        }
+    }
+
+    public static String [] search(int sortType, String cityName, HttpServletResponse response)  {
+        int count =0;
+        ArrayList<String[]>  data = loadData("Canada well being.csv");
+        PrintWriter debugWriter;
+        int searchRes = 0;
+        try {
+            debugWriter = response.getWriter();
+            debugWriter.write("search input: sortType = " + sortType + ", cityName = \"" + cityName + "\"");
+            debugWriter.println();
+            for (String[] info : data) {
+
+                for (String s : info) {
+                    debugWriter.write(s);
+                    debugWriter.println();
+                    count++;
+                }
+            }
+            searchRes = binarySearch(data, cityName); // Search for the city
+            debugWriter.write("Search result (index): " + searchRes);
+            debugWriter.println();
+            System.out.println("Search result (index): " + searchRes);
+        }
+        catch (FileNotFoundException fnfe)
+        {
+            System.err.println("Couldn't open debug file!!");
+        }
+
+        catch (ArrayIndexOutOfBoundsException aioobe)
+        {
+            System.err.println("Couldn't find city!");
+            return null;
+        }
+
+        finally {
             //return data.get(searchRes);
             String[] test = {"a", "b", "c", cityName, Integer.toString(searchRes)};
             return test;
@@ -95,14 +137,17 @@ public class SearchAlgo {
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+            System.err.println("FileNotFoundException: " + e.getMessage());
         } catch (IOException e) {
             e.printStackTrace();
+            System.err.println("IOException: " + e.getMessage());
         } finally {
             if (br != null) {
                 try {
                     br.close();
                 } catch (IOException e) {
                     e.printStackTrace();
+                    System.err.println("IOException: " + e.getMessage());
                 }
             }
         }
