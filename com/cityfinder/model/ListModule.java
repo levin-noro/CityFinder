@@ -4,9 +4,23 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListModule {
-    public ArrayList<String> getCity(String city){
+    public ArrayList<String> getList(){
         ArrayList<String> cities = new ArrayList<String>();
+
+        /* Debugging - use a controlled list for now */
         cities.add("Toronto");
+        cities.add("Mississauga");
+        cities.add("Oshawa");
+        cities.add("Hamilton");
+        cities.add("Vancouver");
+        cities.add("Yellowknife");
+        cities.add("Calgary");
+        cities.add("Edmonton");
+        cities.add("Winnipeg");
+        cities.add("Charlottetown");
+        cities.add("Iqaluit");
+        cities.add("Belleville");
+        cities.add("Thunder Bay");
         return cities;
     }
 

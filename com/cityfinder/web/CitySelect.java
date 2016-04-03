@@ -7,6 +7,7 @@ package com.cityfinder.web;
         import java.util.*;
 
         import com.cityfinder.model.ListModule;
+        import com.sun.xml.internal.bind.v2.model.annotation.Quick;
 
 //requestType: string, gets requestType
 //city: when request is cityName put in city
@@ -24,47 +25,42 @@ public class CitySelect extends HttpServlet{
      */
     private void handleRequest(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
     {
+        System.out.println("Working directory: " + System.getProperty("user.dir")); // Print the working directory
+
         /* Get parameters */
         String requestType = request.getParameter("reqType"); //gets which type of request
         //search (cityName) or similarity(to a city, cityName), List(no parameter)
         String city = request.getParameter("cityName"); //type cityName
+        String method = request.getParameter("method"); // Get the type of request (AJAX or regular)
 
-		/* Set up the request */
-        response.setContentType("text/plain");
-        response.setCharacterEncoding("UTF-8");
-        PrintWriter writer = response.getWriter(); // Get the writer to write the response to
+        /* Set up modules*/
+        ListModule lm = new ListModule(); // Fetches list of cities for dropdown
+
+		/* Set up the response */
+        RequestDispatcher view = request.getRequestDispatcher("result.jsp"); // The dispatcher used to forward the request to the JSP
 
 		/* Determine what we need to return */
         switch (requestType) // Determine type of request to respond to
         {
             case "list": {
-                ListModule getCityList = new ListModule();//for the drop down
-                ArrayList<String> cityList = getCityList.getCity(city); // List of cities
-
-                // Print matching list to response - print names
-
-                for (int i = 0; i < cityList.size(); i++) // List is sorted, go through it in order
-                {
-                    writer.write(cityList.get(i)); // Write the city's name to output
-                }
-
-                System.exit(0);
+                ArrayList<String> cityList = lm.getList(); // List of cities
+                request.setAttribute("cityList", cityList); // Store the list of cities
+                //System.exit(0);
                 break;
             }
 
             case "search":
             {
-                QuickSort sortCity = new QuickSort();
-                sortCity.sort(1);//1 means sort alphabetically
+//.                QuickSort sortCity = new QuickSort();
+//                sortCity.sort(1);//1 means sort alphabetically
+                QuickSort.sort(1);
 
                 /**
                  * NOTE: THE BACK-END ASSUMES THAT THE FRONT-END WILL PRE-FILTER THE LIST OF CITIES SUCH THAT ONLY 1 CITY WILL BE FOUND.
                  */
-                SearchAlgo searchCity = new SearchAlgo();
-                String[] citysInfo = searchCity.search(1, city, response); // An array of strings containing the city's data
+                //SearchAlgo searchCity = new SearchAlgo();
+                String[] citysInfo = SearchAlgo.search(1, city); // An array of strings containing the city's data
                 request.setAttribute("citysInfo", citysInfo); // Store array for JSP
-                RequestDispatcher view = request.getRequestDispatcher("result.jsp");
-                view.forward(request, response);
 
 		/* Print a JSON object */
                 //writer.write("{\"csdCode\":" + Integer.parseInt(citysInfo[0]) + ", \"csdName\":" + citysInfo[1] + ", \"income\": " + Integer.parseInt(citysInfo[2]) + ", \"education\": " + Integer.parseInt(citysInfo[3]) + ", \"housing\": " + Integer.parseInt(citysInfo[4]) + ", \"labourForceActivity\":" + Integer.parseInt(citysInfo[5]) + ", \"cwb\": " + Integer.parseInt(citysInfo[6]) + ", \"globalNonResponse\": " + Integer.parseInt(citysInfo[7]) + ", \"province\": " + citysInfo[8] + ", \"collectivityType\": " + citysInfo[9] + ", \"population\": " + Integer.parseInt(citysInfo[10]) + "}"); // ASSUMPTION: THE DATA FORMAT WILL BE EXACTLY AS IN THE DATASET
@@ -79,21 +75,12 @@ public class CitySelect extends HttpServlet{
             }
         }
 
-        writer.write("{\"status\": \"test\", \"requestType\": \"" + requestType + ", \", \"cityName\": \"" + city + "\"}\r\n\r\n"); // Print a JSON response
-    }
+        /* Set up request data for JSP and forward the request */
+        request.setAttribute("method", method); // Store the request method - AJAX or HTTP?
+        request.setAttribute("reqType", requestType); // Store the type of request - so that the JSP knows what the results are
+        view.forward(request, response); // Send the request and data needed for the view/controller to the JSP
 
-    public void handleRequest2(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
-    {
-         /* Get parameters */
-        String requestType = request.getParameter("reqType"); //gets which type of request
-        //search (cityName) or similarity(to a city, cityName), List(no parameter)
-        String city = request.getParameter("cityName"); //type cityName
-
-        /* Set up the request */
-        response.setContentType("application/json");
-        response.setCharacterEncoding("UTF-8");
-        PrintWriter writer = response.getWriter(); // Get the writer to write the response to
-        writer.write("{\"status\": \"test\", \"requestType\": \"" + requestType + "\", \"cityName\": \"" + city + "\"\r\n\r\n"); // Print a JSON response
+        //writer.write("{\"status\": \"test\", \"requestType\": \"" + requestType + ", \", \"cityName\": \"" + city + "\"}\r\n\r\n"); // Print a JSON response
     }
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
@@ -102,9 +89,5 @@ public class CitySelect extends HttpServlet{
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		handleRequest(request, response); // Handle the request
-        /*PrintWriter writer = response.getWriter();
-        response.setContentType("application/json");
-        response.setCharacterEncoding("UTF-8");
-        writer.write("{\"test\": \"test\"}");*/
     }
 }
