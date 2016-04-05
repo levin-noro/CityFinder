@@ -1,6 +1,9 @@
 <%@ page import="java.util.*" %>
+<%@ page import="com.cityfinder.web.graph.datastructures.graph.City" %>
 
 <%
+    try
+    {
     /* Response setup */
     response.setCharacterEncoding("UTF-8");
 
@@ -85,5 +88,55 @@
 
             break;
         }
+
+        case "similarity": // Return list of similar cities
+        {
+            ArrayList<City> simCits = (ArrayList<City>)request.getAttribute("simCits"); // Fetch the list of similar cities
+
+            /* Determine how to print response */
+            if (method.equalsIgnoreCase("ajax")) // AJAX, print JSON list
+            {
+                response.setContentType("application/json");
+
+                out.print("["); // Start the list
+
+                for (int i = 0; i < simCits.size(); i++) // Loop through the indices
+                {
+                    if (i != simCits.size() - 1) // Not last city, print comma
+                    {
+                        out.print("\"" + simCits.get(i).getStrVal(0) + "\", "); // Print the city
+                    }
+
+                    else // Last city, don't print comma
+                    {
+                        out.print("\"" + simCits.get(i).getStrVal(0) + "\""); // Print the city
+                    }
+                }
+
+                out.print("]"); // Close the list
+            }
+
+            else // HTTP, print data
+            {
+                response.setContentType("text/html");
+
+                out.print("<ol>"); // Start the list
+
+                for (int i = 0; i < simCits.size(); i++) // Loop through the indices
+                {
+                    out.print("<li>" + simCits.get(i) + "</li>"); // Print the city
+                }
+
+                out.print("</ol>"); // Close the list
+            }
+
+            break;
+        }
+    }
+    }
+
+    catch (NumberFormatException nfe)
+    {
+        out.println("Number format exception occurred: " + nfe);
     }
 %>

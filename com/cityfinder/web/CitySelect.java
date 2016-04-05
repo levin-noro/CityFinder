@@ -7,7 +7,7 @@ package com.cityfinder.web;
         import java.util.*;
 
         import com.cityfinder.model.ListModule;
-        import com.sun.xml.internal.bind.v2.model.annotation.Quick;
+        import com.cityfinder.web.graph.solution.CitySimilarity;
 
 //requestType: string, gets requestType
 //city: when request is cityName put in city
@@ -25,7 +25,7 @@ public class CitySelect extends HttpServlet{
      */
     private void handleRequest(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException
     {
-        System.out.println("Working directory: " + System.getProperty("user.dir")); // Print the working directory
+        //System.out.println("Working directory: " + System.getProperty("user.dir")); // Print the working directory
 
         /* Get parameters */
         String requestType = request.getParameter("reqType"); //gets which type of request
@@ -35,6 +35,7 @@ public class CitySelect extends HttpServlet{
 
         /* Set up modules*/
         ListModule lm = new ListModule(); // Fetches list of cities for dropdown
+        CitySimilarity cs = new CitySimilarity(); // Create the module to fetch similar cities
 
 		/* Set up the response */
         RequestDispatcher view = request.getRequestDispatcher("result.jsp"); // The dispatcher used to forward the request to the JSP
@@ -53,7 +54,8 @@ public class CitySelect extends HttpServlet{
             {
 //.                QuickSort sortCity = new QuickSort();
 //                sortCity.sort(1);//1 means sort alphabetically
-                QuickSort.sort(1);
+                QuickSort.sortWellBeingCSV(1);
+                QuickSort.sortCrimeIndexCSV(1);
 
                 /**
                  * NOTE: THE BACK-END ASSUMES THAT THE FRONT-END WILL PRE-FILTER THE LIST OF CITIES SUCH THAT ONLY 1 CITY WILL BE FOUND.
@@ -61,17 +63,21 @@ public class CitySelect extends HttpServlet{
                 //SearchAlgo searchCity = new SearchAlgo();
                 String[] citysInfo = SearchAlgo.search(1, city); // An array of strings containing the city's data
                 request.setAttribute("citysInfo", citysInfo); // Store array for JSP
+                break;
+            }
 
-		/* Print a JSON object */
-                //writer.write("{\"csdCode\":" + Integer.parseInt(citysInfo[0]) + ", \"csdName\":" + citysInfo[1] + ", \"income\": " + Integer.parseInt(citysInfo[2]) + ", \"education\": " + Integer.parseInt(citysInfo[3]) + ", \"housing\": " + Integer.parseInt(citysInfo[4]) + ", \"labourForceActivity\":" + Integer.parseInt(citysInfo[5]) + ", \"cwb\": " + Integer.parseInt(citysInfo[6]) + ", \"globalNonResponse\": " + Integer.parseInt(citysInfo[7]) + ", \"province\": " + citysInfo[8] + ", \"collectivityType\": " + citysInfo[9] + ", \"population\": " + Integer.parseInt(citysInfo[10]) + "}"); // ASSUMPTION: THE DATA FORMAT WILL BE EXACTLY AS IN THE DATASET
-                /*writer.write("Search output:");
+            case "similarity": // Find all cities similar to a given city, with the given weights
+            {
+                String[] weightsSplit = request.getParameter("scores").split(";"); // Get the list of scores and split them into a string array
+                int[] intWeights = new int[weightsSplit.length]; // Create array to hold integer weights
 
-                for (String s : citysInfo) // DEBUGGING: Print search return val
+                for (int i = 0; i < weightsSplit.length; i++) // Loop through each string weight
                 {
-                    writer.write("\"" + s + "\"");
-                    writer.println();
+                    intWeights[i] = Integer.parseInt(weightsSplit[i]); // Convert the string to an integer
                 }
-                break;*/
+
+                request.setAttribute("simCits", cs.simCities(intWeights, city)); // Pass the list of similar cities to the JSP to return
+                break;
             }
         }
 
