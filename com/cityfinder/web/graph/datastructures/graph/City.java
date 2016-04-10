@@ -12,7 +12,17 @@ public class City {
     private int myGlobNonRespPerc;
     private String myProv;
     private String myCollectivityType;
-    private int myPop; // com.cityfinder.web.graph.datastructures.graph.City's population
+    private int myPop; // City's population
+    private int crimeScore; // Rounded crime score
+
+    /**
+     * Sets this city's crime score.
+     * @param cScore The score to use.
+     */
+    public void setCrimeScore(double cScore)
+    {
+        crimeScore = (int) Math.round(cScore);
+    }
 
     /**
      * Fetches one of the integer values associated with the city.
@@ -70,6 +80,12 @@ public class City {
             case 7: // Population
             {
                 toReturn =  myPop;
+                break;
+            }
+
+            case 8: // Crime score
+            {
+                toReturn = crimeScore;
                 break;
             }
 
@@ -177,6 +193,6 @@ public class City {
      */
     public String toString()
     {
-        return "{\"csdCode\": " + Integer.toString(myCSD) + ", \"csdName\": \"" + myCSDName + "\", \"income\": " + Integer.toString(myIncome) + ", \"edScore\": " + Integer.toString(myEdScore) + ", \"houScore\": " + Integer.toString(myHousingScore) + ", \"labActScore\": " + Integer.toString(myLabourActivityScore) + ", \"cwbScore\": " + Integer.toString(myCWBScore) + ", \"globNonRespPerc\": " + Integer.toString(myGlobNonRespPerc) + ", \"prov\": \"" + myProv + "\", \"pop\": " + Integer.toString(myPop) + "}";
+        return "{\"csdCode\": " + Integer.toString(myCSD) + ", \"csdName\": \"" + myCSDName + "\", \"income\": " + Integer.toString(myIncome) + ", \"edScore\": " + Integer.toString(myEdScore) + ", \"houScore\": " + Integer.toString(myHousingScore) + ", \"labActScore\": " + Integer.toString(myLabourActivityScore) + ", \"cwbScore\": " + Integer.toString(myCWBScore) + ", \"globNonRespPerc\": " + Integer.toString(myGlobNonRespPerc) + ", \"prov\": \"" + myProv + "\", \"pop\": " + Integer.toString(myPop) + ", \"crimeScore\": " + Integer.toString(crimeScore) + "}";
     }
 }

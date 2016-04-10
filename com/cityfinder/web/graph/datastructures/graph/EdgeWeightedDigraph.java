@@ -35,7 +35,7 @@ public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
             String values: getString(), [0, 2].
              */
 
-        for (int intType = 0; intType < 8; intType++) // Sort by each of the integer values and create directed edges in order for each of them
+        for (int intType = 0; intType < 9; intType++) // Sort by each of the integer values and create directed edges in order for each of them
         {
             quick.sortByIntCategory(cities, intType); // Sort the list of cities by the given category
             createEdges(cities, intType); // Create directed edges in sorted order

@@ -84,7 +84,7 @@ public class CitySimilarity implements SimilarityAPI {
         DijkSimSP dsp; // Task class implementing the modified Dijkstra path-finding algorithm
         ArrayList<City> similarCities = new ArrayList<City>(); // Create a list to hold the similar cities
 
-        assert scoreWeights.length == 11; // There are 11 categories in total
+        //System.out.println("City object for \"" + cityName + "\" = " + citiesByName.get(cityName));
 
         /* Set the weights appropriately */
         for (int i = 0; i < scoreWeights.length; i++) // The index tells us which score the weight is associated with.
