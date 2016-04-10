@@ -30,15 +30,17 @@ public class CitySimilarity implements SimilarityAPI {
 
     /***
      * Constructor. Loads in the data and creates the graph.
+     * @param wellBeingRecords The sorted data from the well-being data file.
+     * @param crimeIndexRecords The sorted data from the crime index data file.
      */
-    public CitySimilarity()
+    public CitySimilarity(ArrayList<String[]> wellBeingRecords, ArrayList<String[]> crimeIndexRecords)
     {
         /* Initialize variables */
         cities = new ArrayList<City>(); // Create the ArrayList
         citiesByName = new HashMap<String, City>(); // Initialize the HashMap
 
         /** Load data **/
-        dh = new DataHandler(); // Data handler to abstract away the parsing process (reads in data in constructor).
+        dh = new DataHandler(wellBeingRecords, crimeIndexRecords); // Data handler to abstract away the parsing process (reads in data in constructor).
         cities = dh.getCityList(); // Get the list of cities from the DataHandler
 
         /* Add cities to name HashMap for ease of retrieval */
@@ -84,12 +86,24 @@ public class CitySimilarity implements SimilarityAPI {
         DijkSimSP dsp; // Task class implementing the modified Dijkstra path-finding algorithm
         ArrayList<City> similarCities = new ArrayList<City>(); // Create a list to hold the similar cities
 
-        //System.out.println("City object for \"" + cityName + "\" = " + citiesByName.get(cityName));
+        System.out.println("Finding cities similar to \"" + cityName + "\" (" + citiesByName.get(cityName) + ")");
 
         /* Set the weights appropriately */
+
         for (int i = 0; i < scoreWeights.length; i++) // The index tells us which score the weight is associated with.
         {
-            ewd.setCategoryWeight(i, 1/scoreWeights[i]); // Tell the graph to set the weights of the given edge type (index) to the given weight
+            /* Prevent division by zero */
+            if (scoreWeights[i] != 0) // Not a zero weight
+            {
+                ewd.setCategoryWeight(i, 1 / scoreWeights[i]); // Tell the graph to set the weights of the given edge type (index) to 1/the given weight - the higher the user's weighting, the more cities they want to find with similar values in that category.
+            }
+
+            else // Zero weight
+            {
+                ewd.setCategoryWeight(i, 10); // 0 means the user doesn't care about this category. We need to invert this to make the weight so large that
+                                            // Dijkstra's algorithm won't want to use edges of this category. Thus, we set the weight to the maximum
+                                            // weight.
+            }
         }
 
         /* Find all paths of length simDist leading out from the given city */

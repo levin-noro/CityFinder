@@ -48,7 +48,7 @@ public class SearchAlgo {//Searches according to the specific criteria
 	 * @throws FileNotFoundException
 	 * @throws UnsupportedEncodingException
 	 */
-	private static String [] search(int sortType, String criteria) throws FileNotFoundException, UnsupportedEncodingException  {
+	public static String [] search(int sortType, String criteria) throws FileNotFoundException, UnsupportedEncodingException  {
 		//int count =0;
 		
 		ArrayList<String[]>  data = QuickSort.sortWellBeingCSV(sortType);	//Load the Canada well being arrayList which is pre-sorted by city name

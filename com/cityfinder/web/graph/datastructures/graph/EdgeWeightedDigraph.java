@@ -44,7 +44,7 @@ public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
         for (int strType = 0; strType < 3; strType++) // Sort by each of the String categories and create directed edges in order for each String category
         {
             quick.sortByStringCategory(cities, strType); // Sort the list of cities by the given String category
-            createEdges(cities, 8+strType); // Create directed edges in sorted order
+            createEdges(cities, 9+strType); // Create directed edges in sorted order
         }
     }
 

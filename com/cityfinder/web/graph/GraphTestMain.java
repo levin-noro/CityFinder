@@ -1,7 +1,10 @@
 package com.cityfinder.web.graph;
 
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
+import com.cityfinder.web.QuickSort;
 import com.cityfinder.web.graph.datastructures.graph.City;
 import com.cityfinder.web.graph.solution.CitySimilarity;
 
@@ -20,26 +23,36 @@ public class GraphTestMain {
      */
     public static void main(String[] args)
     {
-        CitySimilarity cs = new CitySimilarity(); // Create a city similarity object to query
-        int[] weights = new int[]{9, 2, 3, 4, 5, 6, 7, 4, 9, 10, 20}; // Use test weights
-        String testName = "Brantford";
-        ArrayList<City> sCs = cs.simCities(weights, testName); // Try to find similar cities
+        try {
+            CitySimilarity cs = new CitySimilarity(QuickSort.sortWellBeingCSV(1), QuickSort.sortCrimeIndexCSV(1)); // Create a city similarity object to query
+            int[] weights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10}; // Use test weights
+            String testName = "Brantford";
+            ArrayList<City> sCs = cs.simCities(weights, testName); // Try to find similar cities
 
         /* Error check */
-        if (sCs != null) // No errors
-        {
-            System.out.println("["); // Start the array
+            if (sCs != null) // No errors
+            {
+                System.out.println("["); // Start the array
 
-            for (int i = 0; i < sCs.size(); i++) {
-                System.out.println(sCs.get(i) + ","); // Print the city
+                for (int i = 0; i < sCs.size(); i++) {
+                    System.out.println(sCs.get(i) + ","); // Print the city
+                }
+
+                System.out.println("]"); // End the array
+            } else // Errors detected
+            {
+                System.out.println("Error: the city \"" + testName + "\" doesn't exist.");
             }
-
-            System.out.println("]"); // End the array
         }
 
-        else // Errors detected
+        catch (FileNotFoundException fnfe)
         {
-            System.out.println("Error: the city \"" + testName + "\" doesn't exist.");
+            System.out.println("GraphTestMain: couldn't find file.\nException: " + fnfe + "\nException message: " + fnfe.getMessage());
+        }
+
+        catch (UnsupportedEncodingException uee)
+        {
+            System.out.println("GraphTestMain: unsupported encoding exception occured.\nException: " + uee + "\nException message: " + uee.getMessage());
         }
     }
 }

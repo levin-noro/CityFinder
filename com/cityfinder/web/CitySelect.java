@@ -35,7 +35,9 @@ public class CitySelect extends HttpServlet{
 
         /* Set up modules*/
         ListModule lm = new ListModule(); // Fetches list of cities for dropdown
-        CitySimilarity cs = new CitySimilarity(); // Create the module to fetch similar cities
+        ArrayList<String[]> wellBeingRecords = QuickSort.sortWellBeingCSV(1); // Holds the split lines of the well being file, sorted alphabetically.
+        ArrayList<String[]> crimeIndexRecords = QuickSort.sortCrimeIndexCSV(1); // Holds the split lines of the crime index file, sorted alphabetically.
+        CitySimilarity cs = new CitySimilarity(wellBeingRecords, crimeIndexRecords); // Create the module to fetch similar cities, and pass it the data read by quicksort to be read
 
 		/* Set up the response */
         RequestDispatcher view = request.getRequestDispatcher("result.jsp"); // The dispatcher used to forward the request to the JSP
@@ -52,11 +54,6 @@ public class CitySelect extends HttpServlet{
 
             case "search":
             {
-//.                QuickSort sortCity = new QuickSort();
-//                sortCity.sort(1);//1 means sort alphabetically
-                QuickSort.sortWellBeingCSV(1);
-                QuickSort.sortCrimeIndexCSV(1);
-
                 /**
                  * NOTE: THE BACK-END ASSUMES THAT THE FRONT-END WILL PRE-FILTER THE LIST OF CITIES SUCH THAT ONLY 1 CITY WILL BE FOUND.
                  */
