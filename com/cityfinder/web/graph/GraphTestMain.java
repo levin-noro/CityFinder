@@ -26,7 +26,7 @@ public class GraphTestMain {
         try {
             CitySimilarity cs = new CitySimilarity(QuickSort.sortWellBeingCSV(1), QuickSort.sortCrimeIndexCSV(1)); // Create a city similarity object to query
             int[] weights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10}; // Use test weights
-            String testName = "Brantford";
+            String testName = "Oakville";
             ArrayList<City> sCs = cs.simCities(weights, testName); // Try to find similar cities
 
         /* Error check */
