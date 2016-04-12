@@ -1,8 +1,5 @@
 package com.cityfinder.web.graph.ancillary;
 
-import java.util.ArrayList;
-import java.util.Random;
-
 import com.cityfinder.web.graph.datastructures.graph.City;
 
 import java.util.ArrayList;
@@ -28,12 +25,12 @@ public class Quick {
     /**
      * Sorts a list of cities by one of their string categories.
      * @param c The list of cities to sort.
-     * @param intType The number of the string category to sort by. Used to fetch the values for comparison.
+     * @param strType The number of the string category to sort by. Used to fetch the values for comparison.
      */
-    public void sortByStringCategory(ArrayList<City> c, int intType)
+    public void sortByStringCategory(ArrayList<City> c, int strType)
     {
         shuffle(c); // Shuffle the list of cities randomly to eliminate dependence on input
-        sortByStringCategory(c, 0, c.size() - 1, intType); // Sort the array
+        sortByStringCategory(c, 0, c.size() - 1, strType); // Sort the array
     }
 
     /**
@@ -201,16 +198,12 @@ public class Quick {
      */
     private void shuffle(ArrayList<City> c)
     {
-        City temp; // Temporary holder used for swaps
         Random rand = new Random(); // RNG used for swaps
         int newInd; // New index of item being swapped
 
         for (int i = 0; i < c.size(); i++) // Loop through the list
         {
             newInd = rand.nextInt(c.size()); // Choose a random index in the range [0, c.size())
-                /*temp = c.get(i); // Save the value at this index
-                c.set(i, c.get(newInd)); // Copy the value at the new index to this index
-                c.set(newInd, temp); // Copy the old value at c[i] to its new index*/
             exch(c, i, newInd); // Exchange the values at i and newInd
         }
     }

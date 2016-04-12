@@ -4,10 +4,6 @@ import com.cityfinder.web.graph.datastructures.graph.City;
 
 import java.util.ArrayList;
 
-import com.cityfinder.web.graph.datastructures.graph.City;
-
-import java.util.ArrayList;
-
 /**
  * This interface defines the API for the graph module of the application. This API will be used by the back-end controller to find
  * results.
