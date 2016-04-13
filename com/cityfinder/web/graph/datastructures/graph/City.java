@@ -139,10 +139,10 @@ public class City {
     }
 
     /**
-     * Creates a city object from the well-being index.
+     * Constructor. Creates a city object from the provided data.
      * @param csdCode The CSD (census subdivision) code of the city.
      * @param csdName The city's census subdivision name.
-     * @param income The avg. income in the city.
+     * @param income The average. income in the city.
      * @param edScore The city's education score.
      * @param housScore The city's housing score.
      * @param labAct The city's labour activity score.
@@ -169,26 +169,7 @@ public class City {
     }
 
     /**
-     * Returns either a string or an integer value, depending on what value index is given.
-     * @param valInd The index of the value to return. Mapped to either a string or a number value.
-     * @return An object containing the requested value. The caller MUST cast it to the appropriate type.
-     */
-    public Object getValue(int valInd)
-    {
-        /* Determine if category is integer or string type */
-        if (valInd < 8) // Integer type
-        {
-            return new Integer(getIntValue(valInd)); // Just get the value
-        }
-
-        else // String type
-        {
-            return getStrVal(valInd % 3); // Convert the index to be one in the range [0, 2] and return the string value with that index
-        }
-    }
-
-    /**
-     * For debugging. Represents a city as a string.
+     * Represents a city as a string containing all of the city's variables.
      * @return A string representation of the city.
      */
     public String toString()
