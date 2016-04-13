@@ -12,7 +12,7 @@ import java.util.Stack;
 /**
  * Implements a modification of Dijkstra's shortest-path algorithm to find similar cities.
  */
-public class DijkSimSP
+class DijkSimSP
 {
     private HashMap<City, WeightedDirectedEdge> edgeTo; // Maps a city to the edge leaving from it
     private HashMap<City, Double> distTo; // Stores the distance to a city
@@ -26,7 +26,7 @@ public class DijkSimSP
      * @param ewd The edge-weighted digraph to search.
      * @param source The city to start the search at.
      */
-    public DijkSimSP(EdgeWeightedDigraph ewd, City source)
+    DijkSimSP(EdgeWeightedDigraph ewd, City source)
     {
         /* Set up variables */
         edgeTo = new HashMap<City, WeightedDirectedEdge>(); // Create mapping for city to outgoing edge
@@ -84,21 +84,11 @@ public class DijkSimSP
     }
 
     /**
-     * Finds the distance to a given city from the given source.
-     * @param c The city whose distance from the source we will find.
-     * @return The distance from the source to the given city.
-     */
-    public double distTo(City c)
-    {
-        return distTo.get(c); // Return the distance stored by the algorithm
-    }
-
-    /**
      * Determines if there is a path from the given source to the given city.
      * @param c The city to find the path to.
      * @return True if there is a path to the given city from the given source, false if there isn't.
      */
-    public boolean hasPathTo(City c)
+    boolean hasPathTo(City c)
     {
         return distTo.get(c) < Double.POSITIVE_INFINITY; // The city's distance must have been lowered if there is a path to it
     }
@@ -108,7 +98,7 @@ public class DijkSimSP
      * @param c The city to find a path to.
      * @return Null if no path exists, an Iterable containing the edges on the path in reverse order otherwise.
      */
-    public Stack<City> pathTo(City c)
+    Stack<City> pathTo(City c)
     {
         /* There has to be a path to this city */
         if (!hasPathTo(c)) // No path
@@ -134,7 +124,7 @@ public class DijkSimSP
      * Returns a list of all paths to all vertices reachable from the given source.
      * @return An ArrayList containing all paths to all vertices reachable from the given source.
      */
-    public ArrayList<Stack<City>> allPaths()
+    ArrayList<Stack<City>> allPaths()
     {
         ArrayList<Stack<City>> pathsList = new ArrayList<>(); // Create the list used to store the paths
 

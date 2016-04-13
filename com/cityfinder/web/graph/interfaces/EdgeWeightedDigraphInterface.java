@@ -7,9 +7,6 @@ import com.cityfinder.web.graph.datastructures.graph.WeightedDirectedEdge;
  * Created by Victor on 03-Apr-16.
  */
 
-import com.cityfinder.web.graph.datastructures.graph.City;
-import com.cityfinder.web.graph.datastructures.graph.WeightedDirectedEdge;
-
 /**
  * Created by Victor on 11-Mar-16.
  *
@@ -20,14 +17,15 @@ public interface EdgeWeightedDigraphInterface<T> {
      * This method adds a new weighted, directed edge to the graph.
      *
      * @param c The city which the edge leaves.
-     * @param wde The weighted, directed edge to add. It points from the given city to another city. The second city is stored in the edge.
+     * @param wde The weighted, directed edge to add. It points from the given city to another city. The source and destination cities are stored in
+     *            the edge.
      */
     void addEdge(City c, WeightedDirectedEdge wde);
 
     /**
-     * Fetches all edges connected to a particular city, or returns null if there aren't any.
-     * @param c The city to find the edges of.
-     * @return An Iterable containing the adjacent edges.
+     * Fetches all outgoing edges connected to a particular city, or returns null if there aren't any.
+     * @param c The city to find the outgoing edges of.
+     * @return An Iterable containing the adjacent outgoing  edges.
      */
     Iterable<WeightedDirectedEdge> adj(City c);
 
@@ -36,12 +34,6 @@ public interface EdgeWeightedDigraphInterface<T> {
      * @return The number of vertices in the graph.
      */
     int V(); // Number of vertices
-
-    /**
-     * Fetches the number of edges.
-     * @return The number of edges in the graph.
-     */
-    int E(); // Number of edges
 
     /**
      * Fetches all edges in the graph.

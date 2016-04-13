@@ -100,29 +100,6 @@ public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
     }
 
     /**
-     * Fetches the number of edges.
-     *
-     * @return The number of edges in the graph.
-     */
-    @Override
-    public int E()
-    {
-        /**
-         * ALGORITHM
-         * ----------
-         * 1) Loop through map and increment edge count.
-         */
-        int edgeCount = 0;
-
-        for (City c : graphMap.keySet())
-        {
-            edgeCount += graphMap.get(c).size(); // Add the size of the bag
-        }
-
-        return edgeCount;
-    }
-
-    /**
      * Fetches all edges in the graph.
      *
      * @return An Iterable containing all edges in the graph.
