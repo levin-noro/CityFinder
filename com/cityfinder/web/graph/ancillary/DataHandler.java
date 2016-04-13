@@ -1,15 +1,13 @@
 package com.cityfinder.web.graph.ancillary;
 
 /* Java imports */
-import java.io.*;
+
+import com.cityfinder.web.graph.datastructures.graph.City;
+
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Scanner;
-import java.io.File;
-import java.io.FileNotFoundException;
 
 /* My classes */
-import com.cityfinder.web.graph.datastructures.graph.City;
 
 /**
  * Abstracts the low-level parsing - handles reading files. Can be changed to read from database instead. Provides an API for other
@@ -18,9 +16,7 @@ import com.cityfinder.web.graph.datastructures.graph.City;
 public class DataHandler
 {
     private ArrayList<City> cities; // List of cities loaded from the data
-    private Quick quick; // Quicksort class
     private HashMap<String, City> citiesByName; // Stores cities by name for fast lookup
-    private HashMap<City, Integer> indicesByCity; // Stores array indices (for cities arraylist) by city object for fast lookup
 
     /**
      * Constructor. Calls the various data-loading functions to load the data.
@@ -31,9 +27,7 @@ public class DataHandler
     {
         /* Set up vars */
         cities = new ArrayList<City>(); // Create the list of cities
-        quick = new Quick(); // Create quicksort class
-        citiesByName = new HashMap<>(); // Create name->city hashmap
-        indicesByCity = new HashMap<>(); // Create city->index hashmap
+        citiesByName = new HashMap<>(); // Create name->city hashmaps
 
         /* Load the data */
         loadWellBeingDataFromList(wellBeingData); // TEST: Try loading the well-being data from a list
@@ -129,7 +123,6 @@ public class DataHandler
             temp = new City(Integer.parseInt(fields[0]), fields[1], Integer.parseInt(fields[2]), Integer.parseInt(fields[3]), Integer.parseInt(fields[4]), Integer.parseInt(fields[5]), Integer.parseInt(fields[6]), parsePercentage(fields[7]), fields[8], fields[9], Integer.parseInt(fields[10])); // Create the new city from this line and store a temporary reference to it
             cities.add(temp); // Add a new city object representing this city to the list
             citiesByName.put(temp.getStrVal(0), temp); // Store city object in hashmap of cities by name for later lookup
-            indicesByCity.put(temp, citInd); // Store index of city in arraylist
             citInd++; // Increment index for next loop
             lno++; // Increment line count
         }

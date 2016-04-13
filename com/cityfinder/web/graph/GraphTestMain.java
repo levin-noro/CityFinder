@@ -1,13 +1,11 @@
 package com.cityfinder.web.graph;
 
-import java.io.FileNotFoundException;
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-
 import com.cityfinder.web.QuickSort;
 import com.cityfinder.web.graph.datastructures.graph.City;
 import com.cityfinder.web.graph.solution.CitySimilarity;
 
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
 /**
@@ -26,7 +24,7 @@ public class GraphTestMain {
         try {
             CitySimilarity cs = new CitySimilarity(QuickSort.sortWellBeingCSV(1), QuickSort.sortCrimeIndexCSV(1)); // Create a city similarity object to query
             int[] weights = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10}; // Use test weights
-            String testName = "Oakville";
+            String testName = "Hamilton";
             ArrayList<City> sCs = cs.simCities(weights, testName); // Try to find similar cities
 
         /* Error check */
