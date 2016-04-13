@@ -10,12 +10,6 @@ import java.util.HashMap;
 import java.util.Stack;
 
 /* Types for Bag */
-import com.cityfinder.web.graph.ancillary.DataHandler;
-import com.cityfinder.web.graph.datastructures.graph.City;
-import com.cityfinder.web.graph.datastructures.graph.EdgeWeightedDigraph;
-import com.cityfinder.web.graph.interfaces.SimilarityAPI;
-
-import java.util.*;
 
 /**
  * This class exposes the main graph API to the rest of the application.

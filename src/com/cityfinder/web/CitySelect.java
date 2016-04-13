@@ -1,13 +1,15 @@
 package com.cityfinder.web;
 
-        import javax.servlet.RequestDispatcher;
-        import javax.servlet.ServletException;
-        import javax.servlet.http.*;
-        import java.io.*;
-        import java.util.*;
+import com.cityfinder.model.ListModule;
+import com.cityfinder.web.graph.solution.CitySimilarity;
 
-        import com.cityfinder.model.ListModule;
-        import com.cityfinder.web.graph.solution.CitySimilarity;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.ArrayList;
 
 //requestType: string, gets requestType
 //city: when request is cityName put in city

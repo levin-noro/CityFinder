@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70bd9162-5399-433b-a00b-3aeef0288c80" name="Default" comment="Removed more unused code.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/QuickSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/com/cityfinder/web/QuickSortTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/cityfinder/web/Quicksort.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/model/ListModule.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/model/ListModule.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/CitySelect.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/GraphTestMain.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/GraphTestMain.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/ancillary/DataHandler.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/ancillary/DataHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/ancillary/Quick.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/ancillary/Quick.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/IndexMinPQ.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/IndexMinPQ.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/Bag.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/Bag.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/City.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/City.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/EdgeWeightedDigraph.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/EdgeWeightedDigraph.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/WeightedDirectedEdge.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/WeightedDirectedEdge.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/EdgeWeightedDigraphInterface.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/interfaces/EdgeWeightedDigraphInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/SimilarityAPI.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/interfaces/SimilarityAPI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/WeightedDirectedEdgeInterface.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/interfaces/WeightedDirectedEdgeInterface.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/solution/CitySimilarity.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/solution/CitySimilarity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/solution/DijkSimSP.java" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/graph/solution/DijkSimSP.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/cityfinder/web/result.jsp" afterPath="$PROJECT_DIR$/src/com/cityfinder/web/result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/QuickSort.class" afterPath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/QuickSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/SearchAlgo.class" afterPath="$PROJECT_DIR$/out/production/CityFinder/com/cityfinder/web/SearchAlgo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/EdgeWeightedDigraph.java" afterPath="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/EdgeWeightedDigraph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/EdgeWeightedDigraphInterface.java" afterPath="$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/EdgeWeightedDigraphInterface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/cityfinder/web/graph/solution/DijkSimSP.java" afterPath="$PROJECT_DIR$/com/cityfinder/web/graph/solution/DijkSimSP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CityFinder.eml" afterPath="$PROJECT_DIR$/CityFinder.eml" />
     </list>
     <ignored path="CityFinder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,22 +47,61 @@
     <favorites_list name="CityFinder" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CitySelect.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-243">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2452#2462#0" expanded="true" />
+                <element signature="e#7761#7771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/com/cityfinder/web/QuickSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Victor" />
         <option value="Victor Carri" />
         <option value="Victor &lt;carriva@mcmaster.ca&gt;" />
-        <option value="Victor" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,19 +125,21 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/result.jsp" />
         <option value="$PROJECT_DIR$/CityFinder.eml" />
-        <option value="$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java" />
-        <option value="$PROJECT_DIR$/com/cityfinder/web/CitySelect.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/solution/CitySimilarity.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/SimilarityAPI.java" />
-        <option value="$PROJECT_DIR$/com/cityfinder/web/QuickSort.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/ancillary/DataHandler.java" />
-        <option value="$PROJECT_DIR$/com/cityfinder/web/graph/GraphTestMain.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/ancillary/Quick.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/Bag.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/City.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/EdgeWeightedDigraphInterface.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/EdgeWeightedDigraph.java" />
         <option value="$PROJECT_DIR$/com/cityfinder/web/graph/solution/DijkSimSP.java" />
+        <option value="$PROJECT_DIR$/com/cityfinder/web/QuickSortOld.java" />
+        <option value="$PROJECT_DIR$/com/cityfinder/web/QuickSort.java" />
+        <option value="$PROJECT_DIR$/com/cityfinder/web/CitySelect.java" />
+        <option value="$PROJECT_DIR$/com/cityfinder/web/graph/GraphTestMain.java" />
+        <option value="$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java" />
+        <option value="$PROJECT_DIR$/tests/com/cityfinder/web/QuickSortTest.java" />
       </list>
     </option>
   </component>
@@ -133,6 +195,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CityFinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CityFinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cityfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CityFinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CityFinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cityfinder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -144,8 +246,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.cityfinder.web" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Victor\Documents\School\University\McMaster\Year 2\Term 2\COMP SCI 2XB3\Final Project\Project Files\CityFinder\src" />
       <recent name="C:\Users\Victor\Documents\School\University\McMaster\Year 2\Term 2\COMP SCI 2XB3\Final Project\Project Files\CityFinder\com\cityfinder\model" />
@@ -154,7 +263,7 @@
       <recent name="C:\Users\Victor\Documents\School\University\McMaster\Year 2\Term 2\COMP SCI 2XB3\Final Project\Project Files\CityFinder\com\cityfinder\web" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Similarity Test">
+  <component name="RunManager" selected="JUnit.QuickSort Test">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -434,7 +543,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Quicksort Test" type="Application" factoryName="Application">
+    <configuration default="false" name="Quicksort Main" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.cityfinder.web.QuickSort" />
       <option name="VM_PARAMETERS" value="" />
@@ -449,7 +558,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Similarity Test" type="Application" factoryName="Application" show_console_on_std_out="true" show_console_on_std_err="true">
+    <configuration default="false" name="Similarity Main" type="Application" factoryName="Application" show_console_on_std_out="true" show_console_on_std_err="true">
       <log_file path="$PROJECT_DIR$/logs/fromFileLog.txt" checked="true" skipped="true" show_all="false" alias="Reading File Log" />
       <log_file path="$PROJECT_DIR$/logs/fromQuickSortLog.txt" checked="false" skipped="true" show_all="false" alias="Reading ArrayList Log" />
       <output_file path="$PROJECT_DIR$/logs/fileReadingLog.txt" is_save="true" />
@@ -467,9 +576,31 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Quicksort Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Similarity Test" />
+    <configuration default="false" name="QuickSort Test" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="CityFinder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cityfinder.web" />
+      <option name="MAIN_CLASS_NAME" value="com.cityfinder.web.QuickSortTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Application.Quicksort Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Similarity Main" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QuickSort Test" />
     </list>
   </component>
   <component name="SbtLocalSettings">
@@ -575,12 +706,24 @@
       <option name="project" value="LOCAL" />
       <updated>1460574589703</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Removed more unused code.">
+      <created>1460581245875</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1460581245875</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="QuickSort_Test - 2016.04.13 at 17h 42m 47s.xml">
+      <configuration name="QuickSort Test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -593,8 +736,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19472913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2832" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19472913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2823344" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -650,196 +793,168 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="53" column="15" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/QuickSortOld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/QuickSortOld.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="165" column="49" selection-start-line="165" selection-start-column="49" selection-end-line="165" selection-end-column="49" />
@@ -855,13 +970,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CityFinder.eml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -869,17 +977,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/model/ListModule.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/model/ListModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/SearchAlgo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -890,23 +991,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/CitySelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/WeightedDirectedEdgeInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/interfaces/WeightedDirectedEdgeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
@@ -914,7 +999,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/ancillary/DataHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/ancillary/DataHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1184">
           <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
@@ -922,15 +1007,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/GraphTestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="27" column="66" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/ancillary/Quick.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/ancillary/Quick.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-53">
           <caret line="177" column="21" selection-start-line="177" selection-start-column="21" selection-end-line="177" selection-end-column="21" />
@@ -938,7 +1015,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/Bag.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
           <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
@@ -948,7 +1025,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/City.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/City.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="171" column="6" selection-start-line="171" selection-start-column="6" selection-end-line="172" selection-end-column="51" />
@@ -956,7 +1033,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/WeightedDirectedEdge.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/WeightedDirectedEdge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-329">
           <caret line="12" column="52" selection-start-line="9" selection-start-column="3" selection-end-line="12" selection-end-column="52" />
@@ -964,7 +1041,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/IndexMinPQ.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/IndexMinPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4171">
           <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
@@ -972,7 +1049,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/datastructures/graph/EdgeWeightedDigraph.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/datastructures/graph/EdgeWeightedDigraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
@@ -980,7 +1057,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/EdgeWeightedDigraphInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/interfaces/EdgeWeightedDigraphInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
           <caret line="43" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
@@ -988,7 +1065,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/interfaces/SimilarityAPI.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/interfaces/SimilarityAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
@@ -998,7 +1075,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/solution/CitySimilarity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/solution/CitySimilarity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1378">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
@@ -1008,10 +1085,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/graph/solution/DijkSimSP.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/solution/DijkSimSP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/cityfinder/web/QuickSortOld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/graph/GraphTestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/pic01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2452#2462#0" expanded="true" />
+            <element signature="e#7761#7771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Before.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/com/cityfinder/web/QuickSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/SearchAlgo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cityfinder/web/CitySelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding />
         </state>
       </provider>

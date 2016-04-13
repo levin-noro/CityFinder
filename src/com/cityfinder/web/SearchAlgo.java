@@ -1,10 +1,6 @@
 package com.cityfinder.web;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
@@ -57,7 +53,16 @@ public class SearchAlgo {//Searches according to the specific criteria
 				count ++;
 			}
 			System.out.println("--------------------------------------------");*/
-		return data.get(binarySearch(data,criteria));
+
+		int bRes = binarySearch(data,criteria);
+
+		if (bRes != -1) {
+			return data.get(bRes);
+		}
+		else
+		{
+			return null;
+		}
 	}
 	
 	/**

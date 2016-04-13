@@ -3,10 +3,15 @@ package com.cityfinder.web.graph.datastructures;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-/**
+/******************************************************************************
  * Borrowed from Algorithms, 4th Edition - Robert Sedgewick & Kevin Wayne.
- */
-
+ * <p>
+ * Compilation:  javac IndexMinPQ.java
+ * Execution:    java IndexMinPQ
+ * Dependencies: StdOut.java
+ * <p>
+ * Minimum-oriented indexed PQ implementation using a binary heap.
+ ******************************************************************************/
 /******************************************************************************
  *  Compilation:  javac IndexMinPQ.java
  *  Execution:    java IndexMinPQ
@@ -15,9 +20,6 @@ import java.util.NoSuchElementException;
  *  Minimum-oriented indexed PQ implementation using a binary heap.
  *
  ******************************************************************************/
-
-import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 /**
  *  The <tt>IndexMinPQ</tt> class represents an indexed priority queue of generic keys.
