@@ -1,13 +1,6 @@
 package com.cityfinder.web;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintStream;
-import java.io.UnsupportedEncodingException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -61,7 +54,7 @@ public class QuickSort {
 																				// values
 																				// for
 																				// provinces
-		crimeData = readCrimeData(crimeData, "Territories Crime Index.csv"); // for
+		crimeData = readCrimeData(crimeData, "Territories-Crime-Index.csv"); // for
 																				// territories
 
 		String filetype = "crime index"; // differentiating token

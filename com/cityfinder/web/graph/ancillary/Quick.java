@@ -114,20 +114,20 @@ public class Quick {
     }
 
     /**
-     * Partitions the array into low and high halves, using the string category given by intType.
+     * Partitions the array into low and high halves, using the string category given by strType.
      * @param a The array to partition.
      * @param lo The lower bound of the partition.
      * @param hi The upper bound of the partition.
-     * @param intType The ID of the string to sort by.
+     * @param strType The ID of the string to sort by.
      */
-    private int partitionByStringCategory(ArrayList<City> a, int lo, int hi, int intType)
+    private int partitionByStringCategory(ArrayList<City> a, int lo, int hi, int strType)
     {
         int i = lo, j = hi; // Left and right scan indices
         City v = a.get(lo); // Partitioning item
 
         while (true)
         { // Scan right, scan left, check for scan complete, and exchange
-            while (stringCategoryLess(a.get(++i), v, intType))
+            while (stringCategoryLess(a.get(++i), v, strType))
             {
                 if (i == hi)
                 {
@@ -135,7 +135,7 @@ public class Quick {
                 }
             }
 
-            while (stringCategoryLess(v, a.get(--j), intType))
+            while (stringCategoryLess(v, a.get(--j), strType))
             {
                 if (j == lo)
                 {

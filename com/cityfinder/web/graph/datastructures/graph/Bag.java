@@ -8,9 +8,9 @@ public class Bag<Item> implements Iterable<Item> {
     private int N;               // number of elements in bag
 
     // helper linked list class
-    private class Node<Item> {
-        private Item item;
-        private Node<Item> next;
+    private class Node<type> {
+        private type item;
+        private Node<type> next;
     }
 
     /**
@@ -80,25 +80,5 @@ public class Bag<Item> implements Iterable<Item> {
             current = current.next;
             return item;
         }
-    }
-
-    /**
-     * Determines if the bag contains a given item.
-     * @param i The item to find.
-     * @return True if the bag contains the item, false otherwise.
-     * @author Victor Carri
-     */
-    public boolean contains(Item i)
-    {
-        for (Node x = first; x != null; x = x.next) // Loop through the linked list
-        {
-            if (x.item.equals(i)) // Found the item
-            {
-                return true;
-            }
-        }
-
-        // If we got here, we didn't find the item
-        return false;
     }
 }
