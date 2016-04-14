@@ -120,7 +120,17 @@ public class DataHandler
                 }
             }
 
-            temp = new City(Integer.parseInt(fields[0]), fields[1], Integer.parseInt(fields[2]), Integer.parseInt(fields[3]), Integer.parseInt(fields[4]), Integer.parseInt(fields[5]), Integer.parseInt(fields[6]), parsePercentage(fields[7]), fields[8], fields[9], Integer.parseInt(fields[10])); // Create the new city from this line and store a temporary reference to it
+            temp = new City(Integer.parseInt(fields[0]),
+                    fields[1],
+                    Integer.parseInt(fields[2]),
+                    Integer.parseInt(fields[3]),
+                    Integer.parseInt(fields[4]),
+                    Integer.parseInt(fields[5]),
+                    Integer.parseInt(fields[6]),
+                    parsePercentage(fields[7]),
+                    fields[8],
+                    fields[9],
+                    Integer.parseInt(fields[10])); // Create the new city from this line and store a temporary reference to it
             cities.add(temp); // Add a new city object representing this city to the list
             citiesByName.put(temp.getStrVal(0), temp); // Store city object in hashmap of cities by name for later lookup
             citInd++; // Increment index for next loop

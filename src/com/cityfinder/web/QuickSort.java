@@ -82,7 +82,7 @@ public class QuickSort {
         quick(cities, j + 1, hi, sortType, filetype);
 
         // check if sorted
-        assert isSorted(cities, 0, cities.size() - 1, sortType, filetype);
+        //assert isSorted(cities, 0, cities.size() - 1, sortType, filetype);
     }
 
     /**
