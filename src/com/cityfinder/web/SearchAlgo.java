@@ -4,10 +4,10 @@ import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
-public class SearchAlgo {//Searches according to the specific criteria 
-	
+public class SearchAlgo {//Searches according to the specific criteria
+
 	/**
-	 * 
+	 *
 	 * @param args - takes user input if applicable
 	 * @throws FileNotFoundException - throw file not found exception
 	 * @throws UnsupportedEncodingException - throw unsupported encoding exception
@@ -35,7 +35,7 @@ public class SearchAlgo {//Searches according to the specific criteria
 		}
 		//System.out.println(search(1,"Whitecourt"));
 	}
-	
+
 	/**
 	 * This method searches through the list of cities using a specific criteria and turns the city along with all the information it contains
 	 * @param sortType - flag to indicate which criteria is used  searched
@@ -46,7 +46,7 @@ public class SearchAlgo {//Searches according to the specific criteria
 	 */
 	public static String [] search(int sortType, String criteria) throws FileNotFoundException, UnsupportedEncodingException  {
 		//int count =0;
-		
+
 		ArrayList<String[]>  data = QuickSort.sortWellBeingCSV(sortType);	//Load the Canada well being arrayList which is pre-sorted by city name
 /*			for (String info: data.get(3249)){
 				System.out.println(info);
@@ -64,17 +64,17 @@ public class SearchAlgo {//Searches according to the specific criteria
 			return null;
 		}
 	}
-	
+
 	/**
-	 * 
-	 * @param data - takes in an arryList of data 
+	 *
+	 * @param data - takes in an arryList of data
 	 * @param criteria - takes in the specific requirement for the criteria
 	 * @return
 	 */
 	private static int binarySearch(ArrayList<String[]> data, String criteria) {
 	        int lo = 0;
 	        int hi = data.size() - 1;
-	        //Use binary search to find the city that satisfy the specific requirement and return its index 
+	        //Use binary search to find the city that satisfy the specific requirement and return its index
 	        while (lo <= hi) {
 	            // Key is in a[lo..hi] or not present.
 	            int mid = lo + (hi - lo) / 2;
@@ -84,8 +84,8 @@ public class SearchAlgo {//Searches according to the specific criteria
 	    }
 		return -1;
 	}
-	
-	
+
+
 }
 
 //search by cityname

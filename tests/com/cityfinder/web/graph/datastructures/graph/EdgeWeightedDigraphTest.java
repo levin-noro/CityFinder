@@ -20,7 +20,10 @@ public class EdgeWeightedDigraphTest {
     public static void setupBeforeClass()
     {
         cs = new ArrayList<>();
-        temp = new City(1, "hi", 2, 3, 4, 5, 6, 7, "ON", "as", 7);
+        temp = new City(1, "a", 2, 3, 4, 5, 6, 7, "b", "c", 7);
+        temp.setCrimeScore(8);
+        cs.add(temp);
+        temp = new City(9, "hi", 10, 11, 12, 13, 14, 15, "ON", "as", 16);
         temp.setCrimeScore(5);
         cs.add(temp);
     }
