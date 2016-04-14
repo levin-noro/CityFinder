@@ -13,7 +13,7 @@ import java.util.HashMap;
  */
 public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
     private final int V; // Number of vertices
-    private final HashMap<City, Bag<WeightedDirectedEdge>> graphMap; // Hashmap used to find edges of each city
+    private final HashMap<City, Bag<WeightedDirectedEdge>> graphMap; // Hashmap used to find edges of each city. Maps a City to a Princeton Bag of outgoing edges.
     private Quick quick; // Quicksort object used for sorting
 
     /**
@@ -21,13 +21,13 @@ public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
      * @param cities An array of the cities in the graph. IT IS ASSUMED THAT THERE ARE NO DUPLICATES!
      */
     public EdgeWeightedDigraph(ArrayList<City> cities) {
-        graphMap = new HashMap<City, Bag<WeightedDirectedEdge>>(); // Initialize the hashmap
+        graphMap = new HashMap<City, Bag<WeightedDirectedEdge>>(); // Initialize the hashmap mapping a city to a Princeton Bag containing its outgoing edges.
         V = cities.size(); // Number of cities = # of vertices
         quick = new Quick(); // Create a quicksort class
 
         for (City c : cities)
         {
-            graphMap.put(c, new Bag<WeightedDirectedEdge>()); // Create a new Bag and associate it with the city
+            graphMap.put(c, new Bag<WeightedDirectedEdge>()); // Create a new Princeton Bag and associate it with the city
         }
 
             /*
@@ -55,7 +55,7 @@ public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
      */
     private void createEdges(ArrayList<City> c, int catType)
     {
-        Bag<WeightedDirectedEdge> edgeList; // List of edges for the current city
+        Bag<WeightedDirectedEdge> edgeList; // List of edges for the current city. Princeton Bag class.
 
         for (int i = 0; i < c.size() - 1; i++) // Loop through the list of cities
         {
@@ -71,7 +71,7 @@ public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
      */
     public void addEdge(City c, WeightedDirectedEdge wde)
     {
-        Bag<WeightedDirectedEdge> b = graphMap.get(c); // Get the city's edgelist
+        Bag<WeightedDirectedEdge> b = graphMap.get(c); // Get the city's edgelist. Princeton Bag class.
         b.add(wde); // Add the edge to it
         graphMap.put(c, b); // Store the bag with the new edge added back into the hashmap
     }
@@ -108,7 +108,7 @@ public class EdgeWeightedDigraph implements EdgeWeightedDigraphInterface<City> {
     public Iterable<WeightedDirectedEdge> edges()
     {
         ArrayList<WeightedDirectedEdge> edgeList = new ArrayList<WeightedDirectedEdge>(); // Iterable list of edges to return
-        Bag<WeightedDirectedEdge> adjList; // Used to store the edge list for a particular city
+        Bag<WeightedDirectedEdge> adjList; // Used to store the edge list for a particular city. Princeton Bag class.
 
         for (City c : graphMap.keySet()) // Loop through the list of cities
         {

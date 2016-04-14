@@ -13,6 +13,7 @@ import static org.junit.Assert.*;
  * Class testing the Princeton Bag class.
  */
 public class BagTest {
+    /* Princeton Bag classes for tests */
     private static Bag<Integer> iBag; // Bag holding integers for tests
     private static Bag<Integer> eBag; // Empty bag to test isEmpty
     private static Bag<Integer> aBag; // Bag used to test add()
